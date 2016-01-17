@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1452917949
-ModificationTime: 1453018117
+ModificationTime: 1453018139
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -65,7 +65,7 @@ Grid
   Named: "X height"
 EndSplineSet
 TeXData: 1 0 0 346030 173015 115343 566231 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 256 25
+BeginChars: 256 26
 
 StartChar: l
 Encoding: 108 108 0
@@ -1660,7 +1660,7 @@ EndChar
 StartChar: H
 Encoding: 72 72 24
 Width: 857
-Flags: HWO
+Flags: HW
 LayerCount: 2
 Back
 SplineSet
@@ -1724,6 +1724,29 @@ SplineSet
  528 23 l 1
  618 42 l 1
  618 376 l 1
+EndSplineSet
+EndChar
+
+StartChar: I
+Encoding: 73 73 25
+Width: 374
+Flags: HWO
+LayerCount: 2
+Fore
+SplineSet
+135 728 m 1
+ 45 747 l 1
+ 45 770 l 1
+ 329 770 l 1
+ 329 747 l 1
+ 240 728 l 1
+ 240 42 l 1
+ 329 23 l 1
+ 329 0 l 1
+ 45 0 l 1
+ 45 23 l 1
+ 135 42 l 1
+ 135 728 l 1
 EndSplineSet
 EndChar
 EndChars
