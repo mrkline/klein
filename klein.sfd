@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1452917949
-ModificationTime: 1453355241
+ModificationTime: 1453355326
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -2723,28 +2723,38 @@ EndChar
 
 StartChar: N
 Encoding: 78 78 40
-Width: 1000
-VWidth: 0
+Width: 828
+Flags: HWO
 LayerCount: 2
 Back
 SplineSet
-503 225 m 1
- 732 770 l 1
- 967 770 l 1
- 967 747 l 1
- 878 728 l 1
- 878 42 l 1
- 967 23 l 1
- 967 0 l 1
- 683 0 l 1
- 683 23 l 1
- 773 42 l 1
- 773 656 l 1
- 769 656 l 1
- 485 -10 l 1
- 458 -10 l 1
- 179 660 l 1
- 175 660 l 1
+699 -20 m 1
+ 668 -20 l 1
+ 175 667 l 1
+ 175 42 l 1
+ 264 23 l 1
+ 264 0 l 1
+ 45 0 l 1
+ 45 23 l 1
+ 135 42 l 1
+ 135 728 l 1
+ 45 747 l 1
+ 45 770 l 1
+ 247 770 l 1
+ 659 204 l 1
+ 659 728 l 1
+ 570 747 l 1
+ 570 770 l 1
+ 789 770 l 1
+ 789 747 l 1
+ 699 728 l 1
+ 699 -20 l 1
+EndSplineSet
+Fore
+SplineSet
+699 -20 m 1
+ 668 -20 l 1
+ 175 667 l 1
  175 42 l 1
  264 23 l 1
  264 0 l 1
@@ -2754,9 +2764,15 @@ SplineSet
  110 733 l 1
  45 747 l 1
  45 770 l 1
- 255 770 l 1
- 484 225 l 1
- 503 225 l 1
+ 247 770 l 1
+ 634 239 l 1
+ 634 733 l 1
+ 570 747 l 1
+ 570 770 l 1
+ 789 770 l 1
+ 789 747 l 1
+ 699 728 l 1
+ 699 -20 l 1
 EndSplineSet
 EndChar
 EndChars
