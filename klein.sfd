@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1452917949
-ModificationTime: 1453354816
+ModificationTime: 1453355241
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -54,12 +54,14 @@ WinInfo: 0 19 16
 BeginPrivate: 0
 EndPrivate
 Grid
+473.333333333 1300 m 0
+ 473.333333333 -700 l 1024
 -999 530.5 m 0
  2001 530.5 l 1024
   Named: "X height"
 EndSplineSet
 TeXData: 1 0 0 346030 173015 115343 566231 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 256 39
+BeginChars: 256 41
 
 StartChar: l
 Encoding: 108 108 0
@@ -2580,7 +2582,7 @@ EndChar
 StartChar: K
 Encoding: 75 75 38
 Width: 783
-Flags: HWO
+Flags: HW
 LayerCount: 2
 Back
 SplineSet
@@ -2645,6 +2647,116 @@ SplineSet
  507 708 519 721 519 731 c 3
  519 741 508 747 473 747 c 3
  463 747 455 747 455 747 c 1
+EndSplineSet
+EndChar
+
+StartChar: M
+Encoding: 77 77 39
+Width: 1012
+Flags: HW
+LayerCount: 2
+Back
+SplineSet
+135 728 m 5
+ 45 747 l 5
+ 45 770 l 5
+ 255 770 l 5
+ 504 177 l 5
+ 509 177 l 5
+ 758 770 l 5
+ 967 770 l 5
+ 967 747 l 5
+ 878 728 l 5
+ 878 42 l 5
+ 967 23 l 5
+ 967 0 l 5
+ 683 0 l 5
+ 683 23 l 5
+ 773 42 l 5
+ 773 656 l 5
+ 769 656 l 5
+ 485 -10 l 5
+ 458 -10 l 5
+ 179 660 l 5
+ 175 660 l 5
+ 175 42 l 5
+ 264 23 l 5
+ 264 0 l 5
+ 45 0 l 5
+ 45 23 l 5
+ 135 42 l 5
+ 135 728 l 5
+EndSplineSet
+Fore
+SplineSet
+503 225 m 5
+ 732 770 l 5
+ 967 770 l 5
+ 967 747 l 5
+ 878 728 l 5
+ 878 42 l 5
+ 967 23 l 5
+ 967 0 l 5
+ 683 0 l 5
+ 683 23 l 5
+ 773 42 l 5
+ 773 656 l 5
+ 769 656 l 5
+ 485 -10 l 5
+ 458 -10 l 5
+ 179 660 l 5
+ 175 660 l 5
+ 175 42 l 5
+ 264 23 l 5
+ 264 0 l 5
+ 45 0 l 5
+ 45 23 l 5
+ 110 37 l 5
+ 110 733 l 5
+ 45 747 l 5
+ 45 770 l 5
+ 255 770 l 5
+ 484 225 l 5
+ 503 225 l 5
+EndSplineSet
+EndChar
+
+StartChar: N
+Encoding: 78 78 40
+Width: 1000
+VWidth: 0
+LayerCount: 2
+Back
+SplineSet
+503 225 m 1
+ 732 770 l 1
+ 967 770 l 1
+ 967 747 l 1
+ 878 728 l 1
+ 878 42 l 1
+ 967 23 l 1
+ 967 0 l 1
+ 683 0 l 1
+ 683 23 l 1
+ 773 42 l 1
+ 773 656 l 1
+ 769 656 l 1
+ 485 -10 l 1
+ 458 -10 l 1
+ 179 660 l 1
+ 175 660 l 1
+ 175 42 l 1
+ 264 23 l 1
+ 264 0 l 1
+ 45 0 l 1
+ 45 23 l 1
+ 110 37 l 1
+ 110 733 l 1
+ 45 747 l 1
+ 45 770 l 1
+ 255 770 l 1
+ 484 225 l 1
+ 503 225 l 1
 EndSplineSet
 EndChar
 EndChars
