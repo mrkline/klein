@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1452917949
-ModificationTime: 1453357675
+ModificationTime: 1453357858
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -54,14 +54,12 @@ WinInfo: 0 19 16
 BeginPrivate: 0
 EndPrivate
 Grid
-86.5 1300 m 0
- 86.5 -700 l 1024
 -999 530.5 m 0
  2001 530.5 l 1024
   Named: "X height"
 EndSplineSet
 TeXData: 1 0 0 346030 173015 115343 566231 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 256 49
+BeginChars: 256 53
 
 StartChar: l
 Encoding: 108 108 0
@@ -3254,7 +3252,7 @@ EndChar
 StartChar: S
 Encoding: 83 83 48
 Width: 599
-Flags: HWO
+Flags: HW
 LayerCount: 2
 Back
 SplineSet
@@ -3318,6 +3316,111 @@ SplineSet
  88 262 l 1
  108 181 134 150 167 114 c 0
  200 78 243 61 298 61 c 0
+EndSplineSet
+EndChar
+
+StartChar: asciitilde
+Encoding: 126 126 49
+Width: 588
+Flags: HWO
+LayerCount: 2
+Fore
+SplineSet
+178 276 m 3
+ 134 276 120 256 110 223 c 1
+ 80 223 l 1
+ 80 279 104 322 140 345 c 0
+ 155 354 175 359 198 359 c 3
+ 281 359 329 307 412 307 c 3
+ 456 307 470 326 480 359 c 1
+ 510 359 l 1
+ 510 302 486 260 449 237 c 0
+ 434 228 415 223 392 223 c 3
+ 352 223 318 239 286 250 c 0
+ 255 261 218 276 178 276 c 3
+EndSplineSet
+EndChar
+
+StartChar: bar
+Encoding: 124 124 50
+Width: 272
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+101 -170 m 5
+ 101 819 l 5
+ 171 819 l 5
+ 171 -170 l 5
+ 101 -170 l 5
+EndSplineSet
+EndChar
+
+StartChar: braceleft
+Encoding: 123 123 51
+Width: 327
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+185 -65 m 3
+ 185 -122 198 -157 251 -157 c 3
+ 265 -157 279 -155 292 -151 c 1
+ 298 -180 l 1
+ 275 -189 256 -194 227 -194 c 3
+ 138 -194 99 -159 99 -70 c 3
+ 99 21 125 101 125 194 c 3
+ 125 278 108 320 29 320 c 1
+ 29 343 l 1
+ 103 343 125 385 125 463 c 3
+ 125 527 111 591 103 649 c 0
+ 100 668 99 686 99 701 c 3
+ 99 785 149 828 234 828 c 3
+ 260 828 279 823 298 815 c 1
+ 292 789 l 1
+ 273 792 268 794 251 794 c 3
+ 203 794 185 750 185 699 c 3
+ 185 664 193 624 198 589 c 0
+ 203 551 210 505 210 464 c 3
+ 210 395 186 351 138 332 c 1
+ 138 328 l 1
+ 189 308 210 274 210 202 c 3
+ 210 132 197 57 189 -9 c 0
+ 186 -32 185 -50 185 -65 c 3
+EndSplineSet
+EndChar
+
+StartChar: braceright
+Encoding: 125 125 52
+Width: 327
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+228 -70 m 7
+ 228 -159 189 -194 100 -194 c 7
+ 71 -194 52 -189 29 -180 c 5
+ 35 -151 l 5
+ 48 -155 61 -157 76 -157 c 7
+ 129 -157 142 -122 142 -65 c 7
+ 142 -27 134 23 129 62 c 4
+ 124 105 117 158 117 202 c 7
+ 117 274 138 308 189 328 c 5
+ 189 332 l 5
+ 141 351 117 395 117 464 c 7
+ 117 527 130 592 138 649 c 4
+ 141 668 142 685 142 699 c 7
+ 142 750 124 794 76 794 c 7
+ 59 794 54 792 35 789 c 5
+ 29 815 l 5
+ 48 823 67 828 93 828 c 7
+ 178 828 228 785 228 701 c 7
+ 228 620 202 546 202 463 c 7
+ 202 385 224 343 298 343 c 5
+ 298 320 l 5
+ 219 320 202 278 202 194 c 7
+ 202 122 216 54 224 -11 c 4
+ 227 -32 228 -52 228 -70 c 7
 EndSplineSet
 EndChar
 EndChars
