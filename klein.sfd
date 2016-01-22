@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1452917949
-ModificationTime: 1453393440
+ModificationTime: 1453433158
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -50,7 +50,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 38 16
+WinInfo: 0 19 16
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -101,7 +101,7 @@ EndChar
 StartChar: o
 Encoding: 111 111 1
 Width: 616
-Flags: HWO
+Flags: HW
 LayerCount: 2
 Back
 SplineSet
@@ -449,24 +449,24 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-343 65 m 1
- 317 25 269 -10 207 -10 c 0
- 155 -10 117 17 104 60 c 0
- 99 77 96 101 96 132 c 2
- 96 495 l 1
- 31 495 l 1
- 31 530 l 1
- 106.671730273 533.292185256 155.306421293 607.526598736 165 698 c 1
- 193 700 l 1
- 191 530 l 1
- 303 530 l 1
- 302 495 l 1
- 191 495 l 1
- 191 141 l 2
- 191 114 191 80 200 65 c 0
- 211 47 227 37 250 37 c 0
- 282 37 310 58 326 78 c 1
- 343 65 l 1
+343 65 m 5
+ 317 25 269 -10 207 -10 c 4
+ 155 -10 117 17 104 60 c 4
+ 99 77 96 101 96 132 c 6
+ 96 488 l 5
+ 31 488 l 5
+ 31 530 l 5
+ 107 533 155 610 165 700 c 5
+ 193 700 l 5
+ 191 530 l 5
+ 303 530 l 5
+ 302 488 l 5
+ 191 488 l 5
+ 191 141 l 6
+ 191 114 191 80 200 65 c 4
+ 211 47 227 37 250 37 c 4
+ 282 37 310 58 326 78 c 5
+ 343 65 l 5
 EndSplineSet
 EndChar
 
@@ -996,7 +996,7 @@ EndChar
 StartChar: f
 Encoding: 102 102 15
 Width: 351
-Flags: HW
+Flags: HWO
 LayerCount: 2
 Back
 SplineSet
@@ -1038,28 +1038,28 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-449 745 m 3
- 449 716 429 696 400 696 c 3
- 329 696 375 790 301 790 c 3
- 207 790 206 686 206 585 c 2
- 206 530 l 1
- 324 530 l 1
- 323 498 l 1
- 206 498 l 1
- 206 34 l 1
- 312 19 l 1
- 312 0 l 1
- 36 0 l 1
- 36 19 l 1
- 111 34 l 1
- 111 498 l 1
- 23 498 l 1
- 35 530 l 1
- 111 530 l 1
- 111 578 111 615 113 641 c 0
- 118 720 150 764 202 796 c 0
- 233 815 273 830 320 830 c 3
- 382 830 449 801 449 745 c 3
+449 745 m 7
+ 449 716 429 696 400 696 c 7
+ 329 696 375 790 301 790 c 7
+ 207 790 206 686 206 585 c 6
+ 206 530 l 5
+ 324 530 l 5
+ 323 488 l 5
+ 206 488 l 5
+ 206 34 l 5
+ 312 19 l 5
+ 312 0 l 5
+ 36 0 l 5
+ 36 19 l 5
+ 111 34 l 5
+ 111 488 l 5
+ 23 488 l 5
+ 35 530 l 5
+ 111 530 l 5
+ 111 578 111 615 113 641 c 4
+ 118 720 150 764 202 796 c 4
+ 233 815 273 830 320 830 c 7
+ 382 830 449 801 449 745 c 7
 EndSplineSet
 EndChar
 
