@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1452917949
-ModificationTime: 1453687060
+ModificationTime: 1453688092
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -58,7 +58,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 64182 19 16
+WinInfo: 64144 19 16
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -4518,7 +4518,7 @@ EndChar
 StartChar: uni0000
 Encoding: 0 0 83
 Width: 857
-Flags: MWO
+Flags: MW
 LayerCount: 2
 Back
 SplineSet
@@ -6327,10 +6327,10 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniFB00
+StartChar: f_f
 Encoding: 64256 64256 134
 Width: 683
-Flags: HW
+Flags: MW
 LayerCount: 2
 Back
 SplineSet
@@ -6421,9 +6421,11 @@ SplineSet
  208 530 l 1
  440 530 l 1
 EndSplineSet
+LCarets2: 1 0
+Ligature2: "'liga' standard ligatures-subtable" f f
 EndChar
 
-StartChar: uniFB01
+StartChar: f_i
 Encoding: 64257 64257 135
 Width: 625
 Flags: HW
@@ -6508,9 +6510,10 @@ SplineSet
  260 824 312 830 375 830 c 3
  437 830 526 799 526 743 c 3
 EndSplineSet
+Ligature2: "'liga' standard ligatures-subtable" f i
 EndChar
 
-StartChar: uniFB03
+StartChar: f_f_i
 Encoding: 64259 64259 136
 Width: 954
 Flags: HW
@@ -6636,9 +6639,10 @@ SplineSet
  249 742 208 637 208 536 c 2
  208 530 l 1
 EndSplineSet
+Ligature2: "'liga' standard ligatures-subtable" f f i
 EndChar
 
-StartChar: uniFB02
+StartChar: f_l
 Encoding: 64258 64258 137
 Width: 625
 Flags: HW
@@ -6709,12 +6713,13 @@ SplineSet
  434 530 l 1
  434 739 l 2
 EndSplineSet
+Ligature2: "'liga' standard ligatures-subtable" f l
 EndChar
 
-StartChar: uniFB04
+StartChar: f_f_l
 Encoding: 64260 64260 138
 Width: 946
-Flags: HW
+Flags: MWO
 LayerCount: 2
 Back
 SplineSet
@@ -6787,53 +6792,55 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-755 739 m 2
- 755 759 738 790 675 790 c 0
- 551 790 529 687 529 585 c 2
- 529 530 l 1
- 755 530 l 1
- 755 739 l 2
-847 35 m 1
- 916 20 l 1
- 916 0 l 1
- 685 0 l 1
- 685 20 l 1
- 755 35 l 1
- 755 488 l 1
- 529 488 l 1
- 529 35 l 1
- 635 20 l 1
- 635 0 l 1
- 359 0 l 1
- 359 20 l 1
- 434 35 l 1
- 434 488 l 1
- 208 488 l 1
- 208 35 l 1
- 314 20 l 1
- 314 0 l 1
- 38 0 l 1
- 38 20 l 1
- 113 35 l 1
- 113 488 l 1
- 25 488 l 1
- 37 530 l 1
- 113 530 l 1
- 113 578 113 564 115 590 c 0
- 120 669 156 714 208 746 c 0
- 239 765 285 780 362 780 c 0
- 404 780 448 767 472 741 c 1
- 489 763 511 781 535 796 c 0
- 581 824 633 830 696 830 c 0
- 758 830 847 799 847 743 c 2
- 847 35 l 1
-434 530 m 1
- 434 574 434 618 436 646 c 1
- 373 651 415 742 343 742 c 0
- 249 742 208 637 208 536 c 2
- 208 530 l 1
- 434 530 l 1
+755 739 m 6
+ 755 759 738 790 675 790 c 4
+ 551 790 529 687 529 585 c 6
+ 529 530 l 5
+ 755 530 l 5
+ 755 739 l 6
+847 35 m 5
+ 916 20 l 5
+ 916 0 l 5
+ 685 0 l 5
+ 685 20 l 5
+ 755 35 l 5
+ 755 488 l 5
+ 529 488 l 5
+ 529 35 l 5
+ 635 20 l 5
+ 635 0 l 5
+ 359 0 l 5
+ 359 20 l 5
+ 434 35 l 5
+ 434 488 l 5
+ 208 488 l 5
+ 208 35 l 5
+ 314 20 l 5
+ 314 0 l 5
+ 38 0 l 5
+ 38 20 l 5
+ 113 35 l 5
+ 113 488 l 5
+ 25 488 l 5
+ 37 530 l 5
+ 113 530 l 5
+ 113 578 113 564 115 590 c 4
+ 120 669 156 714 208 746 c 4
+ 239 765 285 780 362 780 c 4
+ 404 780 448 767 472 741 c 5
+ 489 763 511 781 535 796 c 4
+ 581 824 633 830 696 830 c 4
+ 758 830 847 799 847 743 c 6
+ 847 35 l 5
+434 530 m 5
+ 434 574 434 618 436 646 c 5
+ 373 651 415 742 343 742 c 4
+ 249 742 208 637 208 536 c 6
+ 208 530 l 5
+ 434 530 l 5
 EndSplineSet
+LCarets2: 2 0 0
+Ligature2: "'liga' standard ligatures-subtable" f f l
 EndChar
 EndChars
 EndSplineFont
