@@ -21,17 +21,17 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1452917949
-ModificationTime: 1453688092
+ModificationTime: 1453702057
 PfmFamily: 17
-TTFWeight: 400
+TTFWeight: 500
 TTFWidth: 5
-LineGap: 90
+LineGap: 100
 VLineGap: 0
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
 OS2TypoDOffset: 1
-OS2TypoLinegap: 90
+OS2TypoLinegap: 100
 OS2WinAscent: 0
 OS2WinAOffset: 1
 OS2WinDescent: 0
@@ -40,6 +40,7 @@ HheadAscent: 0
 HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
+OS2XHeight: 530
 OS2Vendor: 'PfEd'
 Lookup: 4 0 1 "'liga' standard ligatures" { "'liga' standard ligatures-subtable"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 0" { "by class" [150,0,2] "per glyph" [150,15,0] } ['kern' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
@@ -58,8 +59,10 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 64144 19 16
-BeginPrivate: 0
+WinInfo: 57 19 16
+BeginPrivate: 2
+BlueValues 31 [-10 0 530 540 770 780 830 830]
+OtherBlues 11 [-260 -250]
 EndPrivate
 Grid
 -1000 20.1666666667 m 0
@@ -272,7 +275,7 @@ EndChar
 StartChar: y
 Encoding: 121 121 3
 Width: 575
-Flags: HMW
+Flags: HMWO
 LayerCount: 2
 Back
 SplineSet
@@ -6719,7 +6722,7 @@ EndChar
 StartChar: f_f_l
 Encoding: 64260 64260 138
 Width: 946
-Flags: MWO
+Flags: MW
 LayerCount: 2
 Back
 SplineSet
