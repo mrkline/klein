@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1452917949
-ModificationTime: 1453710946
+ModificationTime: 1453739445
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -43,6 +43,7 @@ HheadDOffset: 1
 OS2XHeight: 530
 OS2Vendor: 'PfEd'
 Lookup: 4 0 1 "'liga' standard ligatures" { "'liga' standard ligatures-subtable"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 4 0 0 "'dlig' discretionary/historic ligatures" { "'dlig' discretionary/historic ligatures-subtable"  } ['dlig' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 0" { "by class" [150,0,2] "per glyph" [150,15,0] } ['kern' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
@@ -63,7 +64,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 12 16
+WinInfo: 76 19 16
 BeginPrivate: 7
 BlueValues 31 [-10 0 530 540 770 780 830 830]
 OtherBlues 11 [-260 -250]
@@ -93,7 +94,7 @@ Grid
   Named: "X height"
 EndSplineSet
 TeXData: 1 0 0 346030 173015 115343 555745 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 65536 139
+BeginChars: 65537 140
 
 StartChar: l
 Encoding: 108 108 0
@@ -186,7 +187,7 @@ EndChar
 StartChar: x
 Encoding: 120 120 2
 Width: 578
-Flags: HMW
+Flags: HMWO
 LayerCount: 2
 Back
 SplineSet
@@ -277,7 +278,6 @@ SplineSet
  396 465 406 476 406 485 c 0
  406 495 393 503 355 510 c 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: y
@@ -573,7 +573,7 @@ EndChar
 
 StartChar: h
 Encoding: 104 104 8
-Width: 621
+Width: 625
 Flags: HMW
 LayerCount: 2
 Back
@@ -613,31 +613,31 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-184 830 m 1
- 196 830 l 1
- 196 475 l 1
- 246 519 313 540 396 540 c 3
- 457 540 506 511 519 463 c 0
- 525 441 525 416 525 389 c 2
- 525 389 525 152 525 34 c 1
- 600 20 l 1
- 600 0 l 1
- 355 0 l 1
- 355 20 l 1
- 430 34 l 1
- 430 328 l 2
- 430 417 425 472 340 472 c 3
- 284 472 236 454 196 411 c 1
- 196 35 l 1
- 271 20 l 1
- 271 0 l 1
- 25 0 l 1
- 25 20 l 1
- 101 35 l 1
- 101 741 l 1
- 26 768 l 1
- 26 782 l 1
- 119 800 146 811 184 830 c 1
+184 830 m 5
+ 196 830 l 5
+ 196 475 l 5
+ 246 519 313 540 396 540 c 7
+ 457 540 506 511 519 463 c 4
+ 525 441 525 416 525 389 c 6
+ 525 389 525 152 525 34 c 5
+ 600 20 l 5
+ 600 0 l 5
+ 355 0 l 5
+ 355 20 l 5
+ 430 34 l 5
+ 430 328 l 6
+ 430 417 425 472 340 472 c 7
+ 284 472 236 454 196 411 c 5
+ 196 35 l 5
+ 271 20 l 5
+ 271 0 l 5
+ 25 0 l 5
+ 25 20 l 5
+ 101 35 l 5
+ 101 741 l 5
+ 26 768 l 5
+ 26 782 l 5
+ 119 800 146 811 184 830 c 5
 EndSplineSet
 Validated: 1
 EndChar
@@ -941,7 +941,7 @@ SplineSet
  430 306 l 1
  428 429 376 489 297 489 c 3
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: d
@@ -1373,7 +1373,7 @@ SplineSet
  319 234 l 1
  249 220 134 202 134 133 c 3
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: A
@@ -5279,7 +5279,7 @@ EndChar
 StartChar: endash
 Encoding: 8211 8211 109
 Width: 753
-Flags: HMWO
+Flags: HMW
 LayerCount: 2
 Back
 SplineSet
@@ -5346,6 +5346,7 @@ SplineSet
  676 314 l 5
  77 314 l 5
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: emdash
@@ -7068,6 +7069,101 @@ EndSplineSet
 Validated: 1
 LCarets2: 2 0 0
 Ligature2: "'liga' standard ligatures-subtable" f f l
+EndChar
+
+StartChar: T_h
+Encoding: 65536 -1 139
+Width: 1246
+Flags: HMW
+LayerCount: 2
+Back
+SplineSet
+217 23 m 1
+ 327 42 l 1
+ 327 701 l 1
+ 116 701 l 1
+ 77 649 56 614 34 550 c 1
+ 10 550 l 1
+ 47 770 l 1
+ 709 770 l 1
+ 746 550 l 1
+ 722 550 l 1
+ 700 614 679 649 640 701 c 1
+ 432 701 l 1
+ 432 42 l 1
+ 541 23 l 1
+ 541 0 l 1
+ 217 0 l 1
+ 217 23 l 1
+806 830 m 1
+ 818 830 l 1
+ 818 475 l 1
+ 868 519 935 540 1018 540 c 3
+ 1079 540 1128 511 1141 463 c 0
+ 1147 441 1147 416 1147 389 c 2
+ 1147 389 1147 152 1147 34 c 1
+ 1222 20 l 1
+ 1222 0 l 1
+ 977 0 l 1
+ 977 20 l 1
+ 1052 34 l 1
+ 1052 328 l 2
+ 1052 417 1047 472 962 472 c 3
+ 906 472 858 454 818 411 c 1
+ 818 35 l 1
+ 893 20 l 1
+ 893 0 l 1
+ 647 0 l 1
+ 647 20 l 1
+ 723 35 l 1
+ 723 674 l 1
+ 648 701 l 1
+ 648 770 l 1
+ 741 788 768 811 806 830 c 1
+EndSplineSet
+Fore
+SplineSet
+805 830 m 1
+ 817 830 l 1
+ 817 475 l 1
+ 867 519 934 540 1017 540 c 0
+ 1078 540 1127 511 1140 463 c 0
+ 1146 441 1146 416 1146 389 c 2
+ 1146 389 1146 152 1146 34 c 1
+ 1221 20 l 1
+ 1221 0 l 1
+ 976 0 l 1
+ 976 20 l 1
+ 1051 34 l 1
+ 1051 328 l 2
+ 1051 417 1046 472 961 472 c 0
+ 905 472 857 454 817 411 c 1
+ 817 35 l 1
+ 892 20 l 1
+ 892 0 l 1
+ 646 0 l 1
+ 646 20 l 1
+ 722 35 l 1
+ 722 550 l 2
+ 722 657 722 701 640 701 c 2
+ 432 701 l 1
+ 432 42 l 1
+ 541 23 l 1
+ 541 0 l 1
+ 217 0 l 1
+ 217 23 l 1
+ 327 42 l 1
+ 327 701 l 1
+ 116 701 l 1
+ 77 649 56 614 34 550 c 1
+ 10 550 l 1
+ 47 770 l 1
+ 647 770 l 1
+ 740 788 767 811 805 830 c 1
+EndSplineSet
+Validated: 1
+LCarets2: 1 0
+Ligature2: "'dlig' discretionary/historic ligatures-subtable" T h
 EndChar
 EndChars
 EndSplineFont
