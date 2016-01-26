@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1452917949
-ModificationTime: 1453839497
+ModificationTime: 1453842618
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -64,7 +64,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 15 11
+WinInfo: 0 32 11
 BeginPrivate: 7
 BlueValues 30 [-8 0 430 438 624 633 673 673]
 OtherBlues 11 [-211 -203]
@@ -93,7 +93,7 @@ Grid
  1622.81054688 430.235351562 l 1024
   Named: "X height"
 EndSplineSet
-TeXData: 1 0 0 346030 173015 115343 555745 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
+TeXData: 1 0 0 262144 157286 104858 450888 1048576 262144 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 BeginChars: 65537 140
 
 StartChar: l
@@ -512,7 +512,6 @@ SplineSet
  220 30 243 47 256 63 c 1
  270 53 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: s
@@ -1239,7 +1238,7 @@ SplineSet
  371.11448913 405.489136711 362.172011495 389.112922507 362.172011495 368.493562871 c 3
  362.172011495 348.006621638 371 323.330859295 371 299 c 3
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: j
@@ -4256,12 +4255,10 @@ EndChar
 
 StartChar: space
 Encoding: 32 32 70
-Width: 243
+Width: 250
 VWidth: 0
 Flags: HMW
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: exclam
@@ -4347,7 +4344,7 @@ StartChar: two
 Encoding: 50 50 74
 Width: 469
 VWidth: 811
-Flags: HMWO
+Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
