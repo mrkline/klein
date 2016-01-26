@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1452917949
-ModificationTime: 1453746989
+ModificationTime: 1453837097
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -64,7 +64,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 12 12 14
+WinInfo: 0 15 11
 BeginPrivate: 7
 BlueValues 30 [-8 0 430 438 624 633 673 673]
 OtherBlues 11 [-211 -203]
@@ -139,7 +139,7 @@ StartChar: o
 Encoding: 111 111 1
 Width: 475
 VWidth: 811
-Flags: HMWO
+Flags: HMW
 LayerCount: 2
 Back
 SplineSet
@@ -854,7 +854,7 @@ StartChar: c
 Encoding: 99 99 12
 Width: 433
 VWidth: 811
-Flags: HMWO
+Flags: HMW
 LayerCount: 2
 Back
 SplineSet
@@ -896,7 +896,7 @@ SplineSet
  398 316 386 296 361 296 c 3
  333 296 317 313 313 347 c 0
  309 383 287 393 251 393 c 3
- 149 393 119 322 119 225 c 7
+ 149 393 119 322 119 225 c 3
  119 124 162 36 259 36 c 3
  315 36 356 75 381 110 c 2
  390 122 l 1
@@ -1216,8 +1216,7 @@ SplineSet
  264 -122 337 -107 337 -62 c 3
  337 -27 305 -23 273 -14 c 0
  235 -4 175 4 135 15 c 1
-358 354 m 1
- 365 338 371 323 371 299 c 0
+371 299 m 3
  371 257 349 226 325 204 c 0
  297 179 258 156 209 156 c 3
  186 156 124 132 124 102 c 3
@@ -1231,13 +1230,12 @@ SplineSet
  51 367 95 408 146 427 c 0
  165 434 186 438 208 438 c 0
  232 438 254 434 273 427 c 1
- 289 423 301 421 311 421 c 3
- 330 421 346 426 387 432 c 1
- 394 406 l 1
- 362 391 352 379 352 368 c 3
- 352 363 355 359 358 354 c 1
+ 289 423 301 423 311 423 c 3
+ 330.075807964 423 354.059570312 432.390625 386 454 c 1
+ 407 413 l 1
+ 371.11448913 405.489136711 362.172011495 389.112922507 362.172011495 368.493562871 c 3
+ 362.172011495 348.006621638 371 323.330859295 371 299 c 3
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: j
@@ -3872,7 +3870,7 @@ StartChar: Q
 Encoding: 81 81 61
 Width: 679
 VWidth: 811
-Flags: HMW
+Flags: HMWO
 LayerCount: 2
 Back
 SplineSet
@@ -3940,22 +3938,20 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-147 313 m 0
- 147 165 195 43 339 43 c 0
- 483 43 531 167 531 315 c 0
- 531 463 483 577 339 577 c 0
- 194 577 147 461 147 313 c 0
-339 633 m 0
- 519 633 633 493 633 312 c 0
- 633 212 599 125 537 67 c 1
- 543 52 576 19 655 -20 c 1
- 648 -35 l 1
- 546 -20 492 -4 436 7 c 1
- 406 -3 374 -8 339 -8 c 0
- 159 -8 45 131 45 312 c 0
- 45 493 159 633 339 633 c 0
+147 313 m 7
+ 147 165 195 43 339 43 c 7
+ 483 43 531 167 531 315 c 7
+ 531 463 483 577 339 577 c 7
+ 194 577 147 461 147 313 c 7
+339 633 m 7
+ 519 633 633 493 633 312 c 7
+ 633 212 599 125 537 67 c 5
+ 543 52 576 19 655 -20 c 5
+ 628 -68 l 5
+ 472 -45 468 -8 339 -8 c 7
+ 159 -8 45 131 45 312 c 7
+ 45 493 159 633 339 633 c 7
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: plus
