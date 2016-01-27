@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1452917949
-ModificationTime: 1453868305
+ModificationTime: 1453869354
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -44,19 +44,21 @@ OS2XHeight: 430
 OS2Vendor: 'PfEd'
 Lookup: 4 0 1 "'liga' standard ligatures" { "'liga' standard ligatures-subtable"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 4 0 0 "'dlig' discretionary/historic ligatures" { "'dlig' discretionary/historic ligatures-subtable"  } ['dlig' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 0" { "by class" [150,0,2] "per glyph" [150,15,0] } ['kern' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 258 0 0 "'kern' Horizontal Kerning" { "by class" [150,0,2] "per glyph" [150,15,0] } ['kern' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-KernClass2: 5 5 "by class"
+KernClass2: 6 6 "by class"
  1 A
  5 V W Y
  1 T
  3 a u
+ 5 f f_f
  3 V W
  1 A
  39 a c d e g i j m n o p q r s u v w x y z
  27 f t f_f f_i f_f_i f_l f_f_l
- 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -145 {} 0 {} 0 {} 0 {} 0 {} 0 {} -145 {} -120 {} 0 {} 0 {} 0 {} 0 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {}
+ 51 grave quotesingle quoteright quotedbl quotedblright
+ 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -145 {} 0 {} 0 {} 0 {} -171 {} 0 {} 0 {} -145 {} -120 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} 120 {}
 LangName: 1033 "" "" "" "" "" "" "" "" "" "" "" "" "" "Copyright (c) 2016, Matt Kline (<matt@bitbashing.io>),+AAoA-with Reserved Font Name Klein.+AAoACgAA-This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoA-This license is copied below, and is also available with a FAQ at:+AAoA-http://scripts.sil.org/OFL+AAoACgAK------------------------------------------------------------+AAoA-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007+AAoA------------------------------------------------------------+AAoACgAA-PREAMBLE+AAoA-The goals of the Open Font License (OFL) are to stimulate worldwide+AAoA-development of collaborative font projects, to support the font creation+AAoA-efforts of academic and linguistic communities, and to provide a free and+AAoA-open framework in which fonts may be shared and improved in partnership+AAoA-with others.+AAoACgAA-The OFL allows the licensed fonts to be used, studied, modified and+AAoA-redistributed freely as long as they are not sold by themselves. The+AAoA-fonts, including any derivative works, can be bundled, embedded, +AAoA-redistributed and/or sold with any software provided that any reserved+AAoA-names are not used by derivative works. The fonts and derivatives,+AAoA-however, cannot be released under any other type of license. The+AAoA-requirement for fonts to remain under this license does not apply+AAoA-to any document created using the fonts or their derivatives.+AAoACgAA-DEFINITIONS+AAoAIgAA-Font Software+ACIA refers to the set of files released by the Copyright+AAoA-Holder(s) under this license and clearly marked as such. This may+AAoA-include source files, build scripts and documentation.+AAoACgAi-Reserved Font Name+ACIA refers to any names specified as such after the+AAoA-copyright statement(s).+AAoACgAi-Original Version+ACIA refers to the collection of Font Software components as+AAoA-distributed by the Copyright Holder(s).+AAoACgAi-Modified Version+ACIA refers to any derivative made by adding to, deleting,+AAoA-or substituting -- in part or in whole -- any of the components of the+AAoA-Original Version, by changing formats or by porting the Font Software to a+AAoA-new environment.+AAoACgAi-Author+ACIA refers to any designer, engineer, programmer, technical+AAoA-writer or other person who contributed to the Font Software.+AAoACgAA-PERMISSION & CONDITIONS+AAoA-Permission is hereby granted, free of charge, to any person obtaining+AAoA-a copy of the Font Software, to use, study, copy, merge, embed, modify,+AAoA-redistribute, and sell modified and unmodified copies of the Font+AAoA-Software, subject to the following conditions:+AAoACgAA-1) Neither the Font Software nor any of its individual components,+AAoA-in Original or Modified Versions, may be sold by itself.+AAoACgAA-2) Original or Modified Versions of the Font Software may be bundled,+AAoA-redistributed and/or sold with any software, provided that each copy+AAoA-contains the above copyright notice and this license. These can be+AAoA-included either as stand-alone text files, human-readable headers or+AAoA-in the appropriate machine-readable metadata fields within text or+AAoA-binary files as long as those fields can be easily viewed by the user.+AAoACgAA-3) No Modified Version of the Font Software may use the Reserved Font+AAoA-Name(s) unless explicit written permission is granted by the corresponding+AAoA-Copyright Holder. This restriction only applies to the primary font name as+AAoA-presented to the users.+AAoACgAA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font+AAoA-Software shall not be used to promote, endorse or advertise any+AAoA-Modified Version, except to acknowledge the contribution(s) of the+AAoA-Copyright Holder(s) and the Author(s) or with their explicit written+AAoA-permission.+AAoACgAA-5) The Font Software, modified or unmodified, in part or in whole,+AAoA-must be distributed entirely under this license, and must not be+AAoA-distributed under any other license. The requirement for fonts to+AAoA-remain under this license does not apply to any document created+AAoA-using the Font Software.+AAoACgAA-TERMINATION+AAoA-This license becomes null and void if any of the above conditions are+AAoA-not met.+AAoACgAA-DISCLAIMER+AAoA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AAoA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AAoA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AAoA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE+AAoA-COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AAoA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AAoA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AAoA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AAoA-OTHER DEALINGS IN THE FONT SOFTWARE." "http://scripts.sil.org/OFL"
 Encoding: UnicodeBmp
 UnicodeInterp: none
@@ -64,7 +66,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 64215 15 11
+WinInfo: 64020 15 11
 BeginPrivate: 7
 BlueValues 30 [-8 0 430 438 624 633 673 673]
 OtherBlues 11 [-211 -203]
@@ -1618,7 +1620,7 @@ SplineSet
  451 -0.5048828125 403 -8 324 -8 c 7
  140 -8 30 123 30 308 c 7
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: D
@@ -4007,50 +4009,50 @@ EndChar
 
 StartChar: quotesingle
 Encoding: 39 39 64
-Width: 176
+Width: 136
 VWidth: 811
 Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-88 673 m 3
- 116 673 131 655 131 628 c 3
- 131 599 123 569 117 540 c 0
- 110 501 102 456 101 410 c 1
- 76 410 l 1
- 74 477 60 534 49 588 c 0
- 46 603 45 614 45 624 c 3
- 45 653 60 673 88 673 c 3
+68 673 m 3
+ 96 673 111 655 111 628 c 3
+ 111 599 103 569 97 540 c 0
+ 90 501 82 456 81 410 c 1
+ 56 410 l 1
+ 54 477 40 534 29 588 c 0
+ 26 603 25 614 25 624 c 3
+ 25 653 40 673 68 673 c 3
 EndSplineSet
-Validated: 1
+Kerns2: 65 90 "per glyph"
 EndChar
 
 StartChar: quotedbl
 Encoding: 34 34 65
-Width: 300
+Width: 260
 VWidth: 811
 Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-88 673 m 3
- 116 673 131 655 131 628 c 3
- 131 599 123 569 117 540 c 0
- 110 501 102 456 101 410 c 1
- 76 410 l 1
- 74 477 60 534 49 588 c 0
- 46 603 45 614 45 624 c 3
- 45 653 60 673 88 673 c 3
-212 673 m 3
- 240 673 255 655 255 628 c 3
- 255 599 246 568 240 539 c 0
- 233 500 225 456 224 410 c 1
- 200 410 l 1
- 198 477 184 534 173 588 c 0
- 170 603 169 614 169 624 c 3
- 169 653 184 673 212 673 c 3
+68 673 m 3
+ 96 673 111 655 111 628 c 3
+ 111 599 103 569 97 540 c 0
+ 90 501 82 456 81 410 c 1
+ 56 410 l 1
+ 54 477 40 534 29 588 c 0
+ 26 603 25 614 25 624 c 3
+ 25 653 40 673 68 673 c 3
+192 673 m 3
+ 220 673 235 655 235 628 c 3
+ 235 599 226 568 220 539 c 0
+ 213 500 205 456 204 410 c 1
+ 180 410 l 1
+ 178 477 164 534 153 588 c 0
+ 150 603 149 614 149 624 c 3
+ 149 653 164 673 192 673 c 3
 EndSplineSet
-Validated: 1
+Kerns2: 64 90 "per glyph"
 EndChar
 
 StartChar: numbersign
@@ -5081,62 +5083,61 @@ EndChar
 
 StartChar: quotedblleft
 Encoding: 8220 8220 99
-Width: 354
+Width: 318
 VWidth: 811
 Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-101 447 m 3
- 65 447 43 480 43 516 c 3
- 43 592 79 637 128 673 c 1
- 144 650 l 1
- 129 639 117 626 108 613 c 0
- 99 600 94 589 94 580 c 3
- 94 560 110 552 124 545 c 0
- 140 536 155 526 155 501 c 3
- 155 470 132 447 101 447 c 3
-256 447 m 3
- 220 447 199 480 199 516 c 3
- 199 592 235 637 284 673 c 1
- 300 650 l 1
- 285 639 273 626 264 613 c 0
- 255 600 250 589 250 580 c 3
- 250 560 266 552 280 545 c 0
- 296 536 311 526 311 501 c 3
- 311 470 287 447 256 447 c 3
+78 447 m 3
+ 42 447 20 480 20 516 c 3
+ 20 592 56 637 105 673 c 1
+ 121 650 l 1
+ 106 639 94 626 85 613 c 0
+ 76 600 71 589 71 580 c 3
+ 71 560 87 552 101 545 c 0
+ 117 536 132 526 132 501 c 3
+ 132 470 109 447 78 447 c 3
+233 447 m 3
+ 197 447 176 480 176 516 c 3
+ 176 592 212 637 261 673 c 1
+ 277 650 l 1
+ 262 639 250 626 241 613 c 0
+ 232 600 227 589 227 580 c 3
+ 227 560 243 552 257 545 c 0
+ 273 536 288 526 288 501 c 3
+ 288 470 264 447 233 447 c 3
 EndSplineSet
-Validated: 1
+Kerns2: 102 80 "per glyph"
 EndChar
 
 StartChar: quotedblright
 Encoding: 8221 8221 100
-Width: 351
+Width: 318
 VWidth: 811
 Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-255 673 m 3
- 291 673 313 640 313 604 c 3
- 313 528 277 483 228 447 c 1
- 212 470 l 1
- 227 481 239 494 248 507 c 0
- 257 520 262 531 262 540 c 7
- 262 560 246 568 232 575 c 0
- 216 584 201 594 201 619 c 3
- 201 650 224 673 255 673 c 3
-100 673 m 3
- 136 673 157 640 157 604 c 3
- 157 528 121 483 72 447 c 1
- 56 470 l 1
- 71 481 83 494 92 507 c 0
- 101 520 106 531 106 540 c 7
- 106 560 90 568 76 575 c 0
- 60 584 45 594 45 619 c 3
- 45 650 69 673 100 673 c 3
+240 673 m 3
+ 276 673 298 640 298 604 c 3
+ 298 528 262 483 213 447 c 1
+ 197 470 l 1
+ 212 481 224 494 233 507 c 0
+ 242 520 247 531 247 540 c 7
+ 247 560 231 568 217 575 c 0
+ 201 584 186 594 186 619 c 3
+ 186 650 209 673 240 673 c 3
+85 673 m 3
+ 121 673 142 640 142 604 c 3
+ 142 528 106 483 57 447 c 1
+ 41 470 l 1
+ 56 481 68 494 77 507 c 0
+ 86 520 91 531 91 540 c 7
+ 91 560 75 568 61 575 c 0
+ 45 584 30 594 30 619 c 3
+ 30 650 54 673 85 673 c 3
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: quotedblbase
@@ -5171,44 +5172,43 @@ EndChar
 
 StartChar: quoteleft
 Encoding: 8216 8216 102
-Width: 198
+Width: 162
 VWidth: 811
 Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-101 447 m 7
- 65 447 43 480 43 516 c 7
- 43 592 79 637 128 673 c 5
- 144 650 l 5
- 129 639 117 626 108 613 c 4
- 99 600 94 589 94 580 c 7
- 94 560 110 552 124 545 c 4
- 140 536 155 526 155 501 c 7
- 155 470 132 447 101 447 c 7
+78 447 m 7
+ 42 447 20 480 20 516 c 7
+ 20 592 56 637 105 673 c 5
+ 121 650 l 5
+ 106 639 94 626 85 613 c 4
+ 76 600 71 589 71 580 c 7
+ 71 560 87 552 101 545 c 4
+ 117 536 132 526 132 501 c 7
+ 132 470 109 447 78 447 c 7
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: quoteright
 Encoding: 8217 8217 103
-Width: 196
+Width: 162
 VWidth: 811
 Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-100 673 m 3
- 136 673 157 640 157 604 c 3
- 157 528 121 483 72 447 c 1
- 56 470 l 1
- 71 481 83 494 92 507 c 0
- 101 520 106 531 106 540 c 3
- 106 560 90 568 76 575 c 0
- 60 584 45 594 45 619 c 3
- 45 650 69 673 100 673 c 3
+85 673 m 3
+ 121 673 142 640 142 604 c 3
+ 142 528 106 483 57 447 c 1
+ 41 470 l 1
+ 56 481 68 494 77 507 c 0
+ 86 520 91 531 91 540 c 3
+ 91 560 75 568 61 575 c 0
+ 45 584 30 594 30 619 c 3
+ 30 650 54 673 85 673 c 3
 EndSplineSet
-Validated: 1
+Kerns2: 100 80 "per glyph"
 EndChar
 
 StartChar: ellipsis
@@ -6768,7 +6768,7 @@ SplineSet
  172 430 l 1
  360 430 l 1
 EndSplineSet
-Validated: 524289
+Validated: 1
 LCarets2: 1 282
 Ligature2: "'liga' standard ligatures-subtable" f f
 EndChar
@@ -6994,7 +6994,7 @@ SplineSet
  205 602 172 517 172 435 c 2
  172 430 l 1
 EndSplineSet
-Validated: 524289
+Validated: 1
 LCarets2: 2 42 79
 Ligature2: "'liga' standard ligatures-subtable" f f i
 EndChar
@@ -7082,7 +7082,7 @@ StartChar: f_f_l
 Encoding: 64260 64260 138
 Width: 766
 VWidth: 811
-Flags: HMWO
+Flags: HMW
 LayerCount: 2
 Back
 SplineSet
