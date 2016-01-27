@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1452917949
-ModificationTime: 1453869354
+ModificationTime: 1453869701
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -66,7 +66,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 64020 15 11
+WinInfo: 0 32 11
 BeginPrivate: 7
 BlueValues 30 [-8 0 430 438 624 633 673 673]
 OtherBlues 11 [-211 -203]
@@ -4024,6 +4024,7 @@ SplineSet
  26 603 25 614 25 624 c 3
  25 653 40 673 68 673 c 3
 EndSplineSet
+Validated: 1
 Kerns2: 65 90 "per glyph"
 EndChar
 
@@ -4052,6 +4053,7 @@ SplineSet
  150 603 149 614 149 624 c 3
  149 653 164 673 192 673 c 3
 EndSplineSet
+Validated: 1
 Kerns2: 64 90 "per glyph"
 EndChar
 
@@ -5108,6 +5110,7 @@ SplineSet
  273 536 288 526 288 501 c 3
  288 470 264 447 233 447 c 3
 EndSplineSet
+Validated: 1
 Kerns2: 102 80 "per glyph"
 EndChar
 
@@ -5138,6 +5141,7 @@ SplineSet
  45 584 30 594 30 619 c 3
  30 650 54 673 85 673 c 3
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: quotedblbase
@@ -5188,6 +5192,7 @@ SplineSet
  117 536 132 526 132 501 c 7
  132 470 109 447 78 447 c 7
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: quoteright
@@ -5208,6 +5213,7 @@ SplineSet
  45 584 30 594 30 619 c 3
  30 650 54 673 85 673 c 3
 EndSplineSet
+Validated: 1
 Kerns2: 100 80 "per glyph"
 EndChar
 
@@ -5597,43 +5603,43 @@ EndChar
 
 StartChar: parenright
 Encoding: 41 41 114
-Width: 246
+Width: 258
 VWidth: 811
 Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-30 -152 m 5
- 92 -52 134 81 134 247 c 4
- 134 338 115 426 93 497 c 4
- 74 558 48 623 20 665 c 5
- 29 673 l 5
- 76 634 119 569 148 505 c 4
- 180 435 208 345 208 247 c 4
- 208 145 185 61 152 -8 c 4
- 123 -69 84 -120 43 -162 c 5
- 30 -152 l 5
+40 -152 m 1
+ 102 -52 144 81 144 247 c 0
+ 144 338 125 426 103 497 c 0
+ 84 558 58 623 30 665 c 1
+ 39 673 l 1
+ 86 634 129 569 158 505 c 0
+ 190 435 218 345 218 247 c 0
+ 218 145 195 61 162 -8 c 0
+ 133 -69 94 -120 53 -162 c 1
+ 40 -152 l 1
 EndSplineSet
 Validated: 1
 EndChar
 
 StartChar: parenleft
 Encoding: 40 40 115
-Width: 244
+Width: 259
 VWidth: 811
 Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-111 247 m 0
- 111 81 153 -52 215 -152 c 1
- 202 -162 l 1
- 110 -68 36 59 36 247 c 0
- 36 345 65 436 97 506 c 0
- 126 570 169 634 216 673 c 1
- 225 665 l 1
- 197 623 171 558 152 498 c 0
- 130 427 111 338 111 247 c 0
+115 247 m 0
+ 115 81 157 -52 219 -152 c 1
+ 206 -162 l 1
+ 114 -68 40 59 40 247 c 0
+ 40 345 69 436 101 506 c 0
+ 130 570 173 634 220 673 c 1
+ 229 665 l 1
+ 201 623 175 558 156 498 c 0
+ 134 427 115 338 115 247 c 0
 EndSplineSet
 Validated: 1
 EndChar
@@ -6994,8 +7000,8 @@ SplineSet
  205 602 172 517 172 435 c 2
  172 430 l 1
 EndSplineSet
-Validated: 1
-LCarets2: 2 42 79
+Validated: 524289
+LCarets2: 2 278 540
 Ligature2: "'liga' standard ligatures-subtable" f f i
 EndChar
 
@@ -7203,7 +7209,7 @@ SplineSet
  355 430 l 1
 EndSplineSet
 Validated: 1
-LCarets2: 2 0 0
+LCarets2: 2 277 540
 Ligature2: "'liga' standard ligatures-subtable" f f l
 EndChar
 
