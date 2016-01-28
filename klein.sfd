@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1452917949
-ModificationTime: 1453961146
+ModificationTime: 1453961876
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -73,7 +73,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 30 15 11
+WinInfo: 0 15 11
 BeginPrivate: 8
 BlueValues 30 [-8 0 444 453 645 654 696 696]
 OtherBlues 11 [-218 -210]
@@ -85,22 +85,22 @@ StemSnapV 13 [35 52 57 80]
 BlueShift 1 7
 EndPrivate
 Grid
--838.331054688 452.760742188 m 0
- 1676.66113281 452.760742188 l 1024
+-838 453 m 4
+ 1677 453 l 1028
   Named: "overshoot"
--838.331054688 -8.26953125 m 0
- 1676.66113281 -8.26953125 l 1024
+-838 -8 m 4
+ 1677 -8 l 1028
   Named: "undershoot"
--838.331054688 37.212890625 m 0
- 1676.66113281 37.212890625 l 1024
+-838 37 m 4
+ 1677 37 l 1028
   Named: "hole bottom"
--838.331054688 406.244140625 m 0
- 1676.66113281 406.244140625 l 1024
+-838 406 m 4
+ 1677 406 l 1028
   Named: "hole top"
--838.331054688 -8.26953125 m 0
- 1676.66113281 -8.26953125 l 1024
--837.296875 444.491210938 m 0
- 1677.6953125 444.491210938 l 1024
+-838 -8 m 4
+ 1677 -8 l 1028
+-837 444 m 4
+ 1678 444 l 1028
   Named: "X height"
 EndSplineSet
 TeXData: 1 0 0 262144 157286 104858 450888 1048576 262144 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -458,7 +458,7 @@ StartChar: t
 Encoding: 116 116 6
 Width: 288
 VWidth: 838
-Flags: HMW
+Flags: HMWO
 LayerCount: 2
 Back
 SplineSet
