@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1452917949
-ModificationTime: 1454998920
+ModificationTime: 1454999453
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -75,7 +75,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 57 19 16
+WinInfo: 19 19 16
 BeginPrivate: 8
 BlueValues 30 [-8 0 444 453 645 654 696 696]
 OtherBlues 11 [-218 -210]
@@ -581,6 +581,33 @@ Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
+409 354 m 7
+ 409 327 397 306 371 306 c 7
+ 342 306 325 324 321 359 c 4
+ 317 396 294 406 257 406 c 7
+ 152 406 121 333 121 233 c 7
+ 121 129 165 37 265 37 c 7
+ 323 37 365 78 391 114 c 6
+ 401 126 l 5
+ 417 118 l 5
+ 412 108 l 6
+ 386 41 329 -8 240 -8 c 7
+ 117 -8 35 87 35 216 c 7
+ 35 355 126 453 258 453 c 7
+ 327 453 409 416 409 354 c 7
+EndSplineSet
+Validated: 1
+Kerns2: 1 -5 "per glyph" 35 -5 "per glyph"
+EndChar
+
+StartChar: e
+Encoding: 101 101 13
+Width: 453
+VWidth: 838
+Flags: HMWO
+LayerCount: 2
+Back
+SplineSet
 409 354 m 3
  409 327 397 306 371 306 c 3
  342 306 325 324 321 359 c 0
@@ -596,56 +623,23 @@ SplineSet
  35 355 126 453 258 453 c 3
  327 453 409 416 409 354 c 3
 EndSplineSet
-Validated: 1
-Kerns2: 1 -5 "per glyph" 35 -5 "per glyph"
-EndChar
-
-StartChar: e
-Encoding: 101 101 13
-Width: 473
-VWidth: 838
-Flags: HMW
-LayerCount: 2
-Back
-SplineSet
-409 354 m 7
- 409 327 397 306 371 306 c 7
- 342 306 325 324 321 359 c 4
- 317 396 294 406 257 406 c 7
- 152 406 121 333 121 233 c 7
- 121 129 166 37 266 37 c 7
- 324 37 366 78 392 114 c 6
- 401 126 l 5
- 417 118 l 5
- 412 108 l 6
- 386 41 329 -8 240 -8 c 7
- 117 -8 35 87 35 216 c 7
- 35 355 126 453 258 453 c 7
- 327 453 409 416 409 354 c 7
-EndSplineSet
 Fore
 SplineSet
-123 193 m 2
- 123 150 146 37 264 37 c 0
- 322 37 371 76 398 109 c 2
- 408 122 l 1
- 422 113 l 1
- 416 101 l 2
- 389 37 325 -8 237 -8 c 0
- 137 -8 76 50 49 124 c 0
- 39 152 35 182 35 215 c 0
- 35 326 89 403 168 436 c 0
- 196 447 226 453 259 453 c 3
- 399 453 433 358 433 218 c 1
- 428 213 l 1
+264 37 m 3
+ 330 37 369 84 398 122 c 1
+ 412 113 l 1
+ 378 45 337 -8 237 -8 c 3
+ 118 -8 35 86 35 215 c 0
+ 35 355 124 453 259 453 c 3
+ 399 453 413 358 413 218 c 1
+ 408 213 l 1
  122 213 l 1
- 123 193 l 2
+ 122 157 151 37 264 37 c 3
 251 406 m 3
  168 406 122 345 122 256 c 1
- 363 256 l 1
- 361 359 317 406 251 406 c 3
+ 353 256 l 1
+ 353 359 317 406 251 406 c 3
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: d
@@ -723,7 +717,7 @@ StartChar: g
 Encoding: 103 103 16
 Width: 512
 VWidth: 838
-Flags: HMWO
+Flags: HMW
 LayerCount: 2
 Back
 SplineSet
