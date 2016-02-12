@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1452917949
-ModificationTime: 1455296292
+ModificationTime: 1455424888
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -75,7 +75,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 19 7
+WinInfo: 0 19 16
 BeginPrivate: 8
 BlueValues 30 [-8 0 444 453 645 654 696 696]
 OtherBlues 11 [-218 -210]
@@ -87,14 +87,14 @@ StemSnapV 13 [35 52 57 80]
 BlueShift 1 7
 EndPrivate
 Grid
-220.833343506 1300 m 0
- 220.833343506 -700 l 1024
-69 1300 m 0
- 69 -700 l 1024
--1000 256 m 4
- 2000 256 l 1028
--1000 213 m 4
- 2000 213 l 1028
+220.833343506 1300 m 4
+ 220.833343506 -700 l 1028
+69 1300 m 4
+ 69 -700 l 1028
+-1001 276 m 4
+ 1999 276 l 1028
+-1000 233 m 4
+ 2000 233 l 1028
   Named: "e horizontal"
 -838 453 m 4
  1677 453 l 1028
@@ -596,11 +596,9 @@ SplineSet
  317 396 294 406 257 406 c 7
  152 406 121 333 121 233 c 7
  121 129 165 37 265 37 c 7
- 323 37 365 78 391 114 c 6
- 401 126 l 5
+ 332 37 369 88 401 126 c 5
  417 118 l 5
- 412 108 l 6
- 386 41 329 -8 240 -8 c 7
+ 382 48 341 -8 240 -8 c 7
  117 -8 35 87 35 216 c 7
  35 355 126 453 258 453 c 7
  327 453 409 416 409 354 c 7
@@ -611,7 +609,7 @@ EndChar
 
 StartChar: e
 Encoding: 101 101 13
-Width: 473
+Width: 463
 VWidth: 838
 Flags: HMW
 LayerCount: 2
@@ -623,32 +621,30 @@ SplineSet
  317 396 294 406 257 406 c 3
  152 406 121 333 121 233 c 3
  121 129 165 37 265 37 c 3
- 323 37 365 78 391 114 c 2
- 401 126 l 1
+ 332 37 369 88 401 126 c 1
  417 118 l 1
- 412 108 l 2
- 386 41 329 -8 240 -8 c 3
+ 382 48 341 -8 240 -8 c 3
  117 -8 35 87 35 216 c 3
  35 355 126 453 258 453 c 3
  327 453 409 416 409 354 c 3
 EndSplineSet
 Fore
 SplineSet
-264 37 m 7
- 330 37 379 84 408 122 c 5
- 422 113 l 5
- 388 45 337 -8 237 -8 c 7
- 118 -8 35 86 35 215 c 4
- 35 355 124 453 259 453 c 7
- 399 453 433 341 433 256 c 7
- 433 237 432 213 408 213 c 6
- 122 213 l 5
- 122 157 151 37 264 37 c 7
-251 406 m 7
- 168 406 122 345 122 256 c 5
- 341 256 l 6
- 355 256 363 259 363 271 c 7
- 363 363 310 406 251 406 c 7
+417 118 m 1
+ 382 48 341 -8 237 -8 c 3
+ 118 -8 35 86 35 215 c 0
+ 35 355 126 453 258 453 c 3
+ 392 453 423 343 423 276 c 3
+ 423 257 398 233 374 233 c 2
+ 121 233 l 1
+ 121 129 165 37 265 37 c 3
+ 332 37 369 88 401 126 c 1
+ 417 118 l 1
+251 406 m 3
+ 157 406 129 333 123 276 c 1
+ 331 276 l 2
+ 345 276 353 279 353 291 c 3
+ 353 383 310 406 251 406 c 3
 EndSplineSet
 Validated: 1
 EndChar
@@ -811,7 +807,7 @@ StartChar: j
 Encoding: 106 106 17
 Width: 238
 VWidth: 838
-Flags: HMWO
+Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
@@ -833,6 +829,7 @@ SplineSet
  160 654 183 633 183 601 c 3
  183 569 160 546 128 546 c 3
 EndSplineSet
+Validated: 1
 Kerns2: 17 65 "per glyph"
 EndChar
 
@@ -840,7 +837,7 @@ StartChar: a
 Encoding: 97 97 18
 Width: 486
 VWidth: 838
-Flags: HMW
+Flags: HMWO
 LayerCount: 2
 Back
 SplineSet
@@ -1142,7 +1139,7 @@ StartChar: J
 Encoding: 74 74 26
 Width: 418
 VWidth: 838
-Flags: HMWO
+Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
@@ -1160,6 +1157,7 @@ SplineSet
  212 55 225 121 225 213 c 2
  225 610 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: O
