@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1452917949
-ModificationTime: 1455611703
+ModificationTime: 1455694379
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -75,7 +75,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 8189 19 16
+WinInfo: 57 19 16
 BeginPrivate: 8
 BlueValues 31 [-10 0 445 455 645 655 695 695]
 OtherBlues 11 [-218 -210]
@@ -3638,29 +3638,28 @@ EndChar
 
 StartChar: ellipsis
 Encoding: 8230 8230 104
-Width: 688
+Width: 660
 VWidth: 838
-Flags: HMW
+Flags: HMWO
 LayerCount: 2
 Fore
 SplineSet
-109 -8 m 4
- 76 -8 52 16 52 49 c 4
- 52 82 75 108 109 108 c 4
- 143 108 167 83 167 49 c 4
- 167 16 142 -8 109 -8 c 4
-344 -8 m 4
- 311 -8 286 16 286 49 c 4
- 286 82 310 108 344 108 c 4
- 378 108 402 83 402 49 c 4
- 402 16 377 -8 344 -8 c 4
-579 -8 m 4
- 546 -8 521 16 521 49 c 4
- 521 82 545 108 579 108 c 4
- 613 108 637 83 637 49 c 4
- 637 16 612 -8 579 -8 c 4
+550 -10 m 3
+ 520 -10 495 16 495 45 c 3
+ 495 77 518 100 550 100 c 3
+ 583 100 605 78 605 45 c 3
+ 605 14 582 -10 550 -10 c 3
+330 -10 m 3
+ 300 -10 275 16 275 45 c 3
+ 275 77 298 100 330 100 c 3
+ 363 100 385 78 385 45 c 3
+ 385 14 362 -10 330 -10 c 3
+110 -10 m 3
+ 80 -10 55 16 55 45 c 3
+ 55 77 78 100 110 100 c 3
+ 143 100 165 78 165 45 c 3
+ 165 14 142 -10 110 -10 c 3
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: fraction
@@ -3731,7 +3730,7 @@ StartChar: daggerdbl
 Encoding: 8225 8225 108
 Width: 372
 VWidth: 838
-Flags: HMWO
+Flags: HMW
 LayerCount: 2
 Back
 SplineSet
