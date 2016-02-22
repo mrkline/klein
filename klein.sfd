@@ -5,7 +5,7 @@ FamilyName: Klein
 Weight: Regular
 Copyright: Copyright (c) 2016, mrkline
 UComments: "2016-1-15: Created with FontForge (http://fontforge.org)"
-Version: 0.1
+Version: 0.2
 ItalicAngle: 0
 UnderlinePosition: -100
 UnderlineWidth: 50
@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1452917949
-ModificationTime: 1456109736
+ModificationTime: 1456110452
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -47,7 +47,7 @@ Lookup: 4 0 0 "'dlig' discretionary/historic ligatures" { "'dlig' discretionary/
 Lookup: 258 0 0 "'kern' Horizontal Kerning" { "by class" [150,0,2] "per glyph" [100,15,2] } ['kern' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-KernClass2: 10 11 "by class"
+KernClass2: 11 11 "by class"
  1 A
  5 V W Y
  1 T
@@ -57,6 +57,7 @@ KernClass2: 10 11 "by class"
  5 f f_f
  1 r
  43 quotesingle quoteleft quotedbl quotedblleft
+ 1 X
  1 A
  5 V W Y
  5 T T_h
@@ -67,7 +68,7 @@ KernClass2: 10 11 "by class"
  27 f t f_f f_i f_f_i f_l f_f_l
  45 quotesingle quoteright quotedbl quotedblright
  1 u
- 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -145 {} 0 {} 0 {} 0 {} 0 {} -100 {} 0 {} -170 {} -20 {} 0 {} -145 {} 0 {} 0 {} -120 {} -130 {} -40 {} -110 {} 0 {} 0 {} -120 {} 0 {} 0 {} 0 {} 0 {} -80 {} -90 {} 0 {} -80 {} 0 {} 20 {} -80 {} 0 {} 0 {} 0 {} -80 {} 0 {} 0 {} 0 {} -20 {} -5 {} -80 {} -5 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} -10 {} 0 {} -15 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 120 {} 120 {} 0 {} -5 {} 40 {} 0 {} 0 {} 120 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 20 {} 0 {} -10 {} 0 {} 0 {} 0 {} 100 {} 0 {}
+ 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -145 {} 0 {} 0 {} 0 {} 0 {} -100 {} 0 {} -170 {} -20 {} 0 {} -145 {} 0 {} 0 {} -120 {} -130 {} -40 {} -110 {} 0 {} 0 {} -120 {} 0 {} 0 {} 0 {} 0 {} -80 {} -90 {} 0 {} -80 {} 0 {} 20 {} -80 {} 0 {} 0 {} 0 {} -80 {} 0 {} 0 {} 0 {} -20 {} -5 {} -80 {} -5 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} -10 {} 0 {} -15 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 120 {} 120 {} 0 {} -5 {} 40 {} 0 {} 0 {} 120 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 20 {} 0 {} -10 {} 0 {} 0 {} 0 {} 100 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} -40 {} 0 {} -70 {} -10 {} 0 {} -40 {}
 LangName: 1033 "" "" "" "" "" "" "" "" "" "" "" "" "" "Copyright (c) 2016, Matt Kline (<matt@bitbashing.io>),+AAoA-with Reserved Font Name Klein.+AAoACgAA-This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoA-This license is copied below, and is also available with a FAQ at:+AAoA-http://scripts.sil.org/OFL+AAoACgAK------------------------------------------------------------+AAoA-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007+AAoA------------------------------------------------------------+AAoACgAA-PREAMBLE+AAoA-The goals of the Open Font License (OFL) are to stimulate worldwide+AAoA-development of collaborative font projects, to support the font creation+AAoA-efforts of academic and linguistic communities, and to provide a free and+AAoA-open framework in which fonts may be shared and improved in partnership+AAoA-with others.+AAoACgAA-The OFL allows the licensed fonts to be used, studied, modified and+AAoA-redistributed freely as long as they are not sold by themselves. The+AAoA-fonts, including any derivative works, can be bundled, embedded, +AAoA-redistributed and/or sold with any software provided that any reserved+AAoA-names are not used by derivative works. The fonts and derivatives,+AAoA-however, cannot be released under any other type of license. The+AAoA-requirement for fonts to remain under this license does not apply+AAoA-to any document created using the fonts or their derivatives.+AAoACgAA-DEFINITIONS+AAoAIgAA-Font Software+ACIA refers to the set of files released by the Copyright+AAoA-Holder(s) under this license and clearly marked as such. This may+AAoA-include source files, build scripts and documentation.+AAoACgAi-Reserved Font Name+ACIA refers to any names specified as such after the+AAoA-copyright statement(s).+AAoACgAi-Original Version+ACIA refers to the collection of Font Software components as+AAoA-distributed by the Copyright Holder(s).+AAoACgAi-Modified Version+ACIA refers to any derivative made by adding to, deleting,+AAoA-or substituting -- in part or in whole -- any of the components of the+AAoA-Original Version, by changing formats or by porting the Font Software to a+AAoA-new environment.+AAoACgAi-Author+ACIA refers to any designer, engineer, programmer, technical+AAoA-writer or other person who contributed to the Font Software.+AAoACgAA-PERMISSION & CONDITIONS+AAoA-Permission is hereby granted, free of charge, to any person obtaining+AAoA-a copy of the Font Software, to use, study, copy, merge, embed, modify,+AAoA-redistribute, and sell modified and unmodified copies of the Font+AAoA-Software, subject to the following conditions:+AAoACgAA-1) Neither the Font Software nor any of its individual components,+AAoA-in Original or Modified Versions, may be sold by itself.+AAoACgAA-2) Original or Modified Versions of the Font Software may be bundled,+AAoA-redistributed and/or sold with any software, provided that each copy+AAoA-contains the above copyright notice and this license. These can be+AAoA-included either as stand-alone text files, human-readable headers or+AAoA-in the appropriate machine-readable metadata fields within text or+AAoA-binary files as long as those fields can be easily viewed by the user.+AAoACgAA-3) No Modified Version of the Font Software may use the Reserved Font+AAoA-Name(s) unless explicit written permission is granted by the corresponding+AAoA-Copyright Holder. This restriction only applies to the primary font name as+AAoA-presented to the users.+AAoACgAA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font+AAoA-Software shall not be used to promote, endorse or advertise any+AAoA-Modified Version, except to acknowledge the contribution(s) of the+AAoA-Copyright Holder(s) and the Author(s) or with their explicit written+AAoA-permission.+AAoACgAA-5) The Font Software, modified or unmodified, in part or in whole,+AAoA-must be distributed entirely under this license, and must not be+AAoA-distributed under any other license. The requirement for fonts to+AAoA-remain under this license does not apply to any document created+AAoA-using the Font Software.+AAoACgAA-TERMINATION+AAoA-This license becomes null and void if any of the above conditions are+AAoA-not met.+AAoACgAA-DISCLAIMER+AAoA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AAoA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AAoA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AAoA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE+AAoA-COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AAoA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AAoA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AAoA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AAoA-OTHER DEALINGS IN THE FONT SOFTWARE." "http://scripts.sil.org/OFL"
 Encoding: UnicodeBmp
 UnicodeInterp: none
@@ -75,7 +76,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 38 7
+WinInfo: 38 38 16
 BeginPrivate: 8
 BlueValues 31 [-10 0 445 455 645 655 695 695]
 OtherBlues 11 [-218 -210]
@@ -270,6 +271,7 @@ SplineSet
  320 382 323 388 323 394 c 0
  323 413 298 425 275 425 c 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: y
@@ -305,6 +307,7 @@ SplineSet
  191 -200 151 -218 108 -218 c 3
  71 -218 40 -198 40 -162 c 3
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: z
@@ -331,6 +334,7 @@ SplineSet
  47 445 l 1
  383 445 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: i
@@ -557,6 +561,7 @@ SplineSet
  330 380 331 385 331 390 c 0
  331 411 313 425 288 425 c 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: u
@@ -911,6 +916,7 @@ SplineSet
  299 486 l 1
  296 486 l 1
 EndSplineSet
+Validated: 1
 Kerns2: 19 15 "per glyph"
 EndChar
 
@@ -951,6 +957,7 @@ SplineSet
  190 67 213 60 263 60 c 3
  374 60 432 71 432 179 c 3
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: C
@@ -980,6 +987,7 @@ SplineSet
  470 0 421 -10 339 -10 c 7
  149 -10 35 127 35 318 c 3
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: D
@@ -1007,6 +1015,7 @@ SplineSet
  185 596 l 5
  185 109 l 6
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: E
@@ -1043,6 +1052,7 @@ SplineSet
  505 461 l 5
  485 461 l 5
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: H
@@ -1083,6 +1093,7 @@ SplineSet
  499 35 l 1
  499 315 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: I
@@ -1107,6 +1118,7 @@ SplineSet
  100 35 l 1
  100 610 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: J
@@ -1131,6 +1143,7 @@ SplineSet
  212 55 223 121 223 213 c 6
  223 610 l 5
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: O
@@ -1152,6 +1165,7 @@ SplineSet
  539 479 489 594 340 594 c 3
  190 594 140 477 140 324 c 3
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: r
@@ -1289,6 +1303,7 @@ SplineSet
  569 381 570 385 570 390 c 0
  570 411 552 425 527 425 c 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: F
@@ -1351,6 +1366,7 @@ SplineSet
  505 461 l 1
  485 461 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: G
@@ -1406,6 +1422,7 @@ SplineSet
  558 453 l 1
  521 539 483 606 364 606 c 0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: L
@@ -1432,6 +1449,7 @@ SplineSet
  260 625 l 1
  185 610 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: p
@@ -1655,6 +1673,7 @@ SplineSet
  394 583 397.529535212 590.869418286 397.529535212 597.452793354 c 0
  397.529535212 614.50131132 376 625 347 625 c 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: M
@@ -1695,6 +1714,7 @@ SplineSet
  408 195 l 1
  425 195 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: N
@@ -1727,6 +1747,7 @@ SplineSet
  624 610 l 1
  624 0 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: T
@@ -1755,6 +1776,7 @@ SplineSet
  200 0 l 1
  200 20 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: U
@@ -1786,6 +1808,7 @@ SplineSet
  185 610 l 1
  185 190 l 2
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: V
@@ -1816,6 +1839,7 @@ SplineSet
  333 -10 l 1
  319 -10 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: W
@@ -1859,6 +1883,7 @@ SplineSet
  338 -10 l 1
  319 -10 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Y
@@ -1895,6 +1920,7 @@ SplineSet
  181 0 l 1
  181 20 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: P
@@ -1928,6 +1954,7 @@ SplineSet
  185 596 l 1
  185 333 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: R
@@ -1965,6 +1992,7 @@ SplineSet
  179 333 l 1
  233 333 l 2
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: S
@@ -2139,6 +2167,7 @@ SplineSet
  155 60 l 1
  430 60 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: X
@@ -2149,40 +2178,41 @@ Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-424 625 m 1
- 424 645 l 1
- 633 645 l 1
- 633 625 l 1
- 593 625 575 605 553 575 c 2
- 372 325 l 1
- 543 70 l 2
- 563 40 573 20 623 20 c 5
- 623 0 l 5
- 390 0 l 1
- 390 20 l 1
- 427 20 448 31 448 49 c 0
- 448 55 445 62 440 70 c 2
- 318 252 l 1
- 186 70 l 2
- 181 63 179 57 179 51 c 0
- 179 32 205 20 236 20 c 1
- 236 0 l 1
- 29 0 l 1
- 29 20 l 1
- 69 20 88 40 109 70 c 2
- 280 306 l 1
- 100 575 l 2
- 80 605 70 625 20 625 c 1
+425 625 m 1
+ 425 645 l 1
+ 634 645 l 1
+ 634 625 l 1
+ 594 625 576 605 554 575 c 2
+ 373 325 l 1
+ 544 70 l 2
+ 564 40 574 20 624 20 c 1
+ 624 0 l 1
+ 391 0 l 1
+ 391 20 l 1
+ 428 20 449 31 449 49 c 0
+ 449 55 446 62 441 70 c 2
+ 319 252 l 1
+ 187 70 l 2
+ 182 63 180 57 180 51 c 0
+ 180 32 206 20 237 20 c 1
+ 237 0 l 1
+ 30 0 l 1
+ 30 20 l 1
+ 70 20 89 40 110 70 c 2
+ 281 306 l 1
+ 101 575 l 2
+ 81 605 70 625 20 625 c 1
  20 645 l 1
- 254 645 l 1
- 254 625 l 1
- 217 625 196 614 196 596 c 0
- 196 590 199 583 204 575 c 2
- 334 381 l 1
- 474 575 l 2
- 479 582 481 588 481 594 c 0
- 481 614 455 625 424 625 c 1
+ 255 645 l 1
+ 255 625 l 1
+ 218 625 197 614 197 596 c 0
+ 197 590 200 583 205 575 c 2
+ 335 381 l 1
+ 475 575 l 2
+ 480 582 482 588 482 594 c 0
+ 482 614 456 625 425 625 c 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: equal
@@ -2374,6 +2404,7 @@ SplineSet
  153 -10 35 136 35 323 c 3
  35 510 153 655 339 655 c 3
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: plus
