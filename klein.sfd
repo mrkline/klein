@@ -1,9 +1,9 @@
 SplineFontDB: 3.0
-FontName: Klein-Regular
-FullName: Klein
+FontName: Klein-Regular-0.2
+FullName: Klein Regular
 FamilyName: Klein
 Weight: Regular
-Copyright: Copyright (c) 2016, mrkline
+Copyright: Copyright (c) 2016 by Matt Kline\nLicensed under the SIL Open Font License (OFL)\nDevelopment is ongoing at at https://github.com/mrkline/klein
 UComments: "2016-1-15: Created with FontForge (http://fontforge.org)"
 Version: 0.2
 ItalicAngle: 0
@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1452917949
-ModificationTime: 1456130658
+ModificationTime: 1456131530
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -80,7 +80,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 38 19 16
+WinInfo: 0 19 16
 BeginPrivate: 8
 BlueValues 31 [-10 0 445 455 645 655 695 695]
 OtherBlues 11 [-218 -210]
