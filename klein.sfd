@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1452917949
-ModificationTime: 1456438456
+ModificationTime: 1456446819
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -628,7 +628,6 @@ SplineSet
  327 460 409 421 409 359 c 3
 EndSplineSet
 Validated: 1
-Kerns2: 1 -5 "per glyph" 35 -5 "per glyph"
 EndChar
 
 StartChar: e
