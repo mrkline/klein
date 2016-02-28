@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1452917949
-ModificationTime: 1456643866
+ModificationTime: 1456644638
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -86,7 +86,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 38 11
+WinInfo: 0 38 16
 BeginPrivate: 8
 BlueValues 31 [-10 0 450 460 650 660 700 710]
 OtherBlues 11 [-210 -200]
@@ -115,11 +115,11 @@ Grid
 -1000 580 m 0
  2000 580 l 1024
   Named: "arc start"
--1000 710 m 0
- 2000 710 l 1024
+-1000 735 m 0
+ 2000 735 l 1024
   Named: "brace top"
--1000 -75 m 0
- 2000 -75 l 1024
+-1000 -75 m 4
+ 2000 -75 l 1028
   Named: "brace bottom"
 -1000 0 m 0
  2000 0 l 1024
@@ -3946,38 +3946,38 @@ EndChar
 
 StartChar: parenright
 Encoding: 41 41 114
-Width: 266
+Width: 270
 VWidth: 838
 Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-148 258 m 7
- 148 426 98 590 30 691 c 5
- 40 700 l 5
- 142 616 226 442 226 258 c 7
- 226 64 149 -68 54 -165 c 5
- 41 -155 l 5
- 105 -52 148 86 148 258 c 7
+150 295 m 3
+ 150 463 98 624 30 725 c 1
+ 40 735 l 1
+ 142 651 230 479 230 295 c 3
+ 230 101 135 -68 40 -165 c 1
+ 30 -155 l 1
+ 94 -52 150 123 150 295 c 3
 EndSplineSet
 Validated: 1
 EndChar
 
 StartChar: parenleft
 Encoding: 40 40 115
-Width: 266
+Width: 270
 VWidth: 838
 Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-118 258 m 3
- 118 86 161 -52 225 -155 c 1
- 212 -165 l 1
- 117 -68 40 64 40 258 c 3
- 40 442 124 616 226 700 c 1
- 236 691 l 1
- 168 590 118 426 118 258 c 3
+120 295 m 7
+ 120 123 176 -52 240 -155 c 5
+ 230 -165 l 5
+ 135 -68 40 101 40 295 c 7
+ 40 479 128 651 230 735 c 5
+ 240 725 l 5
+ 172 624 120 463 120 295 c 7
 EndSplineSet
 Validated: 1
 EndChar
