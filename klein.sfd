@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1452917949
-ModificationTime: 1456909457
+ModificationTime: 1456984890
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -89,7 +89,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 38 38 16
+WinInfo: 0 19 16
 BeginPrivate: 8
 BlueValues 31 [-10 0 450 460 650 660 700 710]
 OtherBlues 11 [-210 -200]
@@ -164,7 +164,7 @@ Grid
   Named: "X height"
 EndSplineSet
 TeXData: 1 0 0 367002 157286 104858 471859 1048576 262144 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 65537 140
+BeginChars: 65537 141
 
 StartChar: l
 Encoding: 108 108 0
@@ -2438,27 +2438,26 @@ EndChar
 
 StartChar: plus
 Encoding: 43 43 62
-Width: 480
+Width: 530
 VWidth: 838
-Flags: HMW
+Flags: HMWO
 LayerCount: 2
 Fore
 SplineSet
-220 260 m 5
- 70 260 l 5
- 70 300 l 5
- 220 300 l 5
- 220 450 l 5
- 260 450 l 5
- 260 300 l 5
- 410 300 l 5
- 410 260 l 5
- 260 260 l 5
- 260 110 l 5
- 220 110 l 5
- 220 260 l 5
+65 240 m 1
+ 65 280 l 1
+ 245 280 l 1
+ 245 460 l 1
+ 285 460 l 1
+ 285 280 l 1
+ 465 280 l 1
+ 465 240 l 1
+ 285 240 l 1
+ 285 60 l 1
+ 245 60 l 1
+ 245 240 l 1
+ 65 240 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: comma
@@ -3198,11 +3197,11 @@ SplineSet
  260 209 l 1
  220 209 l 1
  220 359 l 1
-70 99 m 5
+70 99 m 1
  70 139 l 1
  410 139 l 1
- 410 99 l 5
- 70 99 l 5
+ 410 99 l 1
+ 70 99 l 1
 EndSplineSet
 Validated: 1
 EndChar
@@ -3809,13 +3808,12 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-65 269 m 1
- 65 319 l 1
- 565 319 l 1
- 565 269 l 1
- 65 269 l 1
+65 240 m 5
+ 65 290 l 5
+ 565 290 l 5
+ 565 240 l 5
+ 65 240 l 5
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: emdash
@@ -3932,14 +3930,12 @@ Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-0 512 m 1052
-60 240 m 5,0,-1
- 60 310 l 5,1,-1
- 330 310 l 5,2,-1
- 330 240 l 5,3,-1
- 60 240 l 5,0,-1
+60 200 m 5
+ 60 270 l 5
+ 330 270 l 5
+ 330 200 l 5
+ 60 200 l 5
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: slash
@@ -5395,6 +5391,22 @@ EndSplineSet
 Validated: 1
 LCarets2: 1 0
 Ligature2: "'dlig' discretionary/historic ligatures-subtable" T h
+EndChar
+
+StartChar: minus
+Encoding: 8722 8722 140
+Width: 530
+VWidth: 838
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+65 240 m 5
+ 65 280 l 5
+ 465 280 l 5
+ 465 240 l 5
+ 65 240 l 5
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
