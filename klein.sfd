@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1452917949
-ModificationTime: 1456984890
+ModificationTime: 1456985013
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -2440,24 +2440,25 @@ StartChar: plus
 Encoding: 43 43 62
 Width: 530
 VWidth: 838
-Flags: HMWO
+Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-65 240 m 1
- 65 280 l 1
- 245 280 l 1
- 245 460 l 1
- 285 460 l 1
- 285 280 l 1
- 465 280 l 1
- 465 240 l 1
- 285 240 l 1
- 285 60 l 1
- 245 60 l 1
- 245 240 l 1
- 65 240 l 1
+65 240 m 5
+ 65 280 l 5
+ 245 280 l 5
+ 245 460 l 5
+ 285 460 l 5
+ 285 280 l 5
+ 465 280 l 5
+ 465 240 l 5
+ 285 240 l 5
+ 285 60 l 5
+ 245 60 l 5
+ 245 240 l 5
+ 65 240 l 5
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: comma
@@ -3178,32 +3179,31 @@ EndChar
 
 StartChar: plusminus
 Encoding: 177 177 84
-Width: 480
+Width: 530
 VWidth: 838
-Flags: HMW
+Flags: HMWO
 LayerCount: 2
 Fore
 SplineSet
-220 359 m 1
- 70 359 l 1
- 70 399 l 1
- 220 399 l 1
- 220 549 l 1
- 260 549 l 1
- 260 399 l 1
- 410 399 l 1
- 410 359 l 1
- 260 359 l 1
- 260 209 l 1
- 220 209 l 1
- 220 359 l 1
-70 99 m 1
- 70 139 l 1
- 410 139 l 1
- 410 99 l 1
- 70 99 l 1
+65 110 m 5
+ 65 150 l 5
+ 465 150 l 5
+ 465 110 l 5
+ 65 110 l 5
+65 370 m 5
+ 65 410 l 5
+ 245 410 l 5
+ 245 590 l 5
+ 285 590 l 5
+ 285 410 l 5
+ 465 410 l 5
+ 465 370 l 5
+ 285 370 l 5
+ 285 190 l 5
+ 245 190 l 5
+ 245 370 l 5
+ 65 370 l 5
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni00B2
@@ -3814,6 +3814,7 @@ SplineSet
  565 240 l 5
  65 240 l 5
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: emdash
@@ -3936,6 +3937,7 @@ SplineSet
  330 200 l 5
  60 200 l 5
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: slash
@@ -5397,7 +5399,8 @@ StartChar: minus
 Encoding: 8722 8722 140
 Width: 530
 VWidth: 838
-Flags: HW
+Flags: W
+HStem: 240 40<65 465>
 LayerCount: 2
 Fore
 SplineSet
@@ -5407,6 +5410,7 @@ SplineSet
  465 240 l 5
  65 240 l 5
 EndSplineSet
+Validated: 1
 EndChar
 EndChars
 EndSplineFont
