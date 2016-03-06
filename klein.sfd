@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1452917949
-ModificationTime: 1457252764
+ModificationTime: 1457252916
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -89,7 +89,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 57 19 7
+WinInfo: 38 19 16
 BeginPrivate: 8
 BlueValues 31 [-10 0 450 460 650 660 700 710]
 OtherBlues 11 [-210 -200]
@@ -762,7 +762,7 @@ StartChar: g
 Encoding: 103 103 16
 Width: 472
 VWidth: 838
-Flags: HMW
+Flags: HMWO
 LayerCount: 2
 Back
 SplineSet
@@ -815,15 +815,15 @@ SplineSet
 72 -70 m 3
  72 -124 136 -160 220 -160 c 3
  303 -160 354 -124 354 -70 c 3
- 354 -16 304 0 220 0 c 7
- 184 0 156 0 134 0 c 5
+ 354 -16 304 0 220 0 c 3
+ 184 0 156 0 134 0 c 1
  96 -8 72 -39 72 -70 c 3
 372 356 m 1
  379 337 383 317 383 296 c 3
  383 204 312 135 218 135 c 3
  200 135 184 138 168 142 c 1
- 128 129 111 114 111 100 c 3
- 111 74 182 42 233 42 c 3
+ 128 129 121 114 121 100 c 3
+ 121 74 182 42 233 42 c 3
  382 42 423 21 423 -52 c 3
  423 -132 363 -210 222 -210 c 3
  109 -210 20 -157 20 -84 c 3
@@ -837,7 +837,6 @@ SplineSet
  452 450 l 1
  372 356 l 1
 EndSplineSet
-Validated: 1
 Kerns2: 17 120 "per glyph"
 EndChar
 
@@ -3337,7 +3336,7 @@ Encoding: 175 175 92
 Width: 260
 VWidth: 838
 InSpiro: 1
-Flags: HMWO
+Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
