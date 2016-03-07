@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1452917949
-ModificationTime: 1457389471
+ModificationTime: 1457392119
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -89,7 +89,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 38 38 10
+WinInfo: 19 19 14
 BeginPrivate: 8
 BlueValues 31 [-10 0 450 460 650 660 700 710]
 OtherBlues 11 [-210 -200]
@@ -142,10 +142,10 @@ Grid
 -1000 20 m 0
  2000 20 l 1024
   Named: "serif base (20)"
--1001 280 m 4
- 1999 280 l 1028
--1001 240 m 0
- 1999 240 l 1024
+-1001 280 m 0
+ 1999 280 l 1024
+-1011 230 m 4
+ 1989 230 l 1028
   Named: "e horizontal"
 -838 460 m 0
  1677 460 l 1024
@@ -671,8 +671,8 @@ SplineSet
  118 -10 35 91 35 220 c 0
  35 360 126 460 258 460 c 3
  392 460 423 348 423 281 c 3
- 423 262 398 240 374 240 c 2
- 121 240 l 1
+ 423 262 398 230 374 230 c 2
+ 121 230 l 1
  121 136 165 35 265 35 c 3
  332 35 369 88 401 126 c 1
  417 118 l 1
@@ -2444,19 +2444,19 @@ Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-65 240 m 5
- 65 280 l 5
- 245 280 l 5
- 245 460 l 5
- 285 460 l 5
- 285 280 l 5
- 465 280 l 5
- 465 240 l 5
- 285 240 l 5
- 285 60 l 5
- 245 60 l 5
- 245 240 l 5
- 65 240 l 5
+65 230 m 1
+ 65 270 l 1
+ 245 270 l 1
+ 245 450 l 1
+ 285 450 l 1
+ 285 270 l 1
+ 465 270 l 1
+ 465 230 l 1
+ 285 230 l 1
+ 285 50 l 1
+ 245 50 l 1
+ 245 230 l 1
+ 65 230 l 1
 EndSplineSet
 Validated: 1
 EndChar
@@ -3181,7 +3181,7 @@ StartChar: plusminus
 Encoding: 177 177 84
 Width: 530
 VWidth: 838
-Flags: HMW
+Flags: HMWO
 LayerCount: 2
 Fore
 SplineSet
@@ -3809,11 +3809,11 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-65 240 m 5
- 65 290 l 5
- 565 290 l 5
- 565 240 l 5
- 65 240 l 5
+65 230 m 5
+ 65 280 l 5
+ 565 280 l 5
+ 565 230 l 5
+ 65 230 l 5
 EndSplineSet
 Validated: 1
 EndChar
@@ -3826,11 +3826,11 @@ Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-65 240 m 5
- 65 290 l 5
- 865 290 l 5
- 865 240 l 5
- 65 240 l 5
+65 230 m 5
+ 65 280 l 5
+ 865 280 l 5
+ 865 230 l 5
+ 65 230 l 5
 EndSplineSet
 Validated: 1
 EndChar
@@ -3932,11 +3932,11 @@ Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-60 200 m 5
- 60 270 l 5
- 330 270 l 5
- 330 200 l 5
- 60 200 l 5
+60 200 m 1
+ 60 260 l 5
+ 330 260 l 5
+ 330 200 l 1
+ 60 200 l 1
 EndSplineSet
 Validated: 1
 EndChar
@@ -5399,15 +5399,15 @@ Encoding: 8722 8722 140
 Width: 530
 VWidth: 838
 Flags: W
-HStem: 240 40<65 465>
+HStem: 230 40<65 465>
 LayerCount: 2
 Fore
 SplineSet
-65 240 m 5
- 65 280 l 5
- 465 280 l 5
- 465 240 l 5
- 65 240 l 5
+65 230 m 5
+ 65 270 l 5
+ 465 270 l 5
+ 465 230 l 5
+ 65 230 l 5
 EndSplineSet
 Validated: 1
 EndChar
