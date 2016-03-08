@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1452917949
-ModificationTime: 1457399429
+ModificationTime: 1457410054
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -89,7 +89,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 38 38 14
+WinInfo: 38 19 16
 BeginPrivate: 8
 BlueValues 31 [-10 0 450 460 650 660 700 710]
 OtherBlues 11 [-210 -200]
@@ -164,7 +164,7 @@ Grid
   Named: "X height"
 EndSplineSet
 TeXData: 1 0 0 367002 157286 104858 471859 1048576 262144 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 65537 142
+BeginChars: 65537 143
 
 StartChar: l
 Encoding: 108 108 0
@@ -319,7 +319,7 @@ SplineSet
  193 -192 148 -210 105 -210 c 3
  68 -210 37 -190 37 -154 c 3
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: z
@@ -357,23 +357,23 @@ Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-155 460 m 1
- 165 460 l 1
- 165 30 l 1
- 225 20 l 1
- 225 0 l 1
- 25 0 l 1
- 25 20 l 1
- 85 30 l 1
- 85 380 l 1
- 25 400 l 1
- 25 420 l 1
- 105 435 125 445 155 460 c 1
-125 549 m 3
- 95 549 70 575 70 604 c 3
- 70 636 93 659 125 659 c 3
- 158 659 180 637 180 604 c 3
- 180 573 157 549 125 549 c 3
+155 460 m 5
+ 165 460 l 5
+ 165 30 l 5
+ 225 20 l 5
+ 225 0 l 5
+ 25 0 l 5
+ 25 20 l 5
+ 85 30 l 5
+ 85 380 l 5
+ 25 400 l 5
+ 25 420 l 5
+ 105 435 125 445 155 460 c 5
+125 549 m 7
+ 95 549 70 575 70 604 c 7
+ 70 636 93 659 125 659 c 7
+ 158 659 180 637 180 604 c 7
+ 180 573 157 549 125 549 c 7
 EndSplineSet
 Validated: 1
 EndChar
@@ -5438,6 +5438,32 @@ SplineSet
  465 280 l 1
  465 240 l 1
  65 240 l 1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: dotlessi
+Encoding: 305 305 142
+Width: 245
+VWidth: 838
+Flags: WO
+HStem: 0 20<25 67 183 225> 440 20G<140 165>
+VStem: 85 80<30 380>
+LayerCount: 2
+Fore
+SplineSet
+155 460 m 1
+ 165 460 l 1
+ 165 30 l 1
+ 225 20 l 1
+ 225 0 l 1
+ 25 0 l 1
+ 25 20 l 1
+ 85 30 l 1
+ 85 380 l 1
+ 25 400 l 1
+ 25 420 l 1
+ 105 435 125 445 155 460 c 1
 EndSplineSet
 Validated: 1
 EndChar
