@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1452917949
-ModificationTime: 1457393412
+ModificationTime: 1457399429
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -89,7 +89,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 38 19 14
+WinInfo: 38 38 14
 BeginPrivate: 8
 BlueValues 31 [-10 0 450 460 650 660 700 710]
 OtherBlues 11 [-210 -200]
@@ -144,8 +144,8 @@ Grid
   Named: "serif base (20)"
 -1001 280 m 0
  1999 280 l 1024
--1011 230 m 4
- 1989 230 l 1028
+-1011 235 m 4
+ 1989 235 l 1028
   Named: "e horizontal"
 -838 460 m 0
  1677 460 l 1024
@@ -290,7 +290,7 @@ StartChar: y
 Encoding: 121 121 3
 Width: 458
 VWidth: 838
-Flags: HMWO
+Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
@@ -319,6 +319,7 @@ SplineSet
  193 -192 148 -210 105 -210 c 3
  68 -210 37 -190 37 -154 c 3
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: z
@@ -569,6 +570,7 @@ SplineSet
  330 385 331 390 331 395 c 0
  331 416 313 430 288 430 c 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: u
@@ -657,7 +659,7 @@ SplineSet
  121 134 165 35 265 35 c 3
  332 35 369 93 401 131 c 1
  417 123 l 1
- 382 53 341 -10 240 -10 c 7
+ 382 53 341 -10 240 -10 c 3
  117 -10 35 92 35 221 c 3
  35 360 126 460 258 460 c 3
  327 460 409 421 409 359 c 3
@@ -669,8 +671,8 @@ SplineSet
  118 -10 35 91 35 220 c 0
  35 360 126 460 258 460 c 3
  392 460 423 348 423 281 c 3
- 423 262 398 230 374 230 c 2
- 121 230 l 1
+ 423 262 408 235 374 235 c 2
+ 121 235 l 1
  121 136 165 35 265 35 c 3
  332 35 369 88 401 126 c 1
  417 118 l 1
