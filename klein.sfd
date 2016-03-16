@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1452917949
-ModificationTime: 1457936025
+ModificationTime: 1458139083
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -91,7 +91,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 57 19 16
+WinInfo: 38 38 14
 BeginPrivate: 8
 BlueValues 31 [-10 0 450 460 650 660 700 710]
 OtherBlues 11 [-210 -200]
@@ -167,7 +167,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 367002 157286 104858 471859 1048576 262144 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "lower diacritic" "diacritics" "upper diacritic" "diacritics" 
-BeginChars: 65537 163
+BeginChars: 65537 168
 
 StartChar: l
 Encoding: 108 108 0
@@ -580,6 +580,7 @@ Encoding: 117 117 11
 Width: 495
 VWidth: 838
 Flags: HMW
+AnchorPoint: "upper diacritic" 230 500 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -605,7 +606,7 @@ SplineSet
  345 30 l 1
  335 35 l 1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: c
@@ -1591,6 +1592,7 @@ Encoding: 110 110 37
 Width: 509
 VWidth: 838
 Flags: HMW
+AnchorPoint: "upper diacritic" 275 510 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1619,7 +1621,7 @@ SplineSet
  105 435 135 445 165 460 c 1
  175 460 l 1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: K
@@ -5744,6 +5746,66 @@ LayerCount: 2
 Fore
 Refer: 91 168 N 1 0 0 1 98 10 2
 Refer: 13 101 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: ntilde
+Encoding: 241 241 163
+Width: 509
+VWidth: 0
+Flags: W
+HStem: 510 50<296.665 411.73> 555 50<164.27 279.335>
+VStem: 128 25<520 533.651> 423 25<581.349 595>
+LayerCount: 2
+Fore
+Refer: 145 732 N 1 0 0 1 43 -10 2
+Refer: 37 110 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: ugrave
+Encoding: 249 249 164
+Width: 495
+VWidth: 0
+LayerCount: 2
+Fore
+Refer: 98 96 N 1 0 0 1 121 -9 2
+Refer: 11 117 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: uacute
+Encoding: 250 250 165
+Width: 495
+VWidth: 0
+LayerCount: 2
+Fore
+Refer: 88 180 N 1 0 0 1 173 -9 2
+Refer: 11 117 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: ucircumflex
+Encoding: 251 251 166
+Width: 495
+VWidth: 0
+HStem: 500 101
+VStem: 101 257
+LayerCount: 2
+Fore
+Refer: 149 710 N 1 0 0 1 31 -20 2
+Refer: 11 117 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: udieresis
+Encoding: 252 252 167
+Width: 495
+VWidth: 0
+LayerCount: 2
+Fore
+Refer: 91 168 N 1 0 0 1 90 0 2
+Refer: 11 117 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 EndChars
