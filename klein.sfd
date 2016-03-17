@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1452917949
-ModificationTime: 1458233512
+ModificationTime: 1458234055
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -91,7 +91,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 38 38 14
+WinInfo: 0 38 14
 BeginPrivate: 8
 BlueValues 31 [-10 0 450 460 650 660 700 710]
 OtherBlues 11 [-210 -200]
@@ -167,7 +167,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 367002 157286 104858 471859 1048576 262144 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "upper" "upper diacritics" 
-BeginChars: 65537 193
+BeginChars: 65537 194
 
 StartChar: l
 Encoding: 108 108 0
@@ -3338,16 +3338,16 @@ AnchorPoint: "upper" 140 500 mark 0
 LayerCount: 2
 Fore
 SplineSet
-215 500 m 7
- 185 500 160 526 160 555 c 7
- 160 587 183 610 215 610 c 7
- 248 610 270 588 270 555 c 7
- 270 524 247 500 215 500 c 7
-65 500 m 7
- 35 500 10 526 10 555 c 7
- 10 587 33 610 65 610 c 7
- 98 610 120 588 120 555 c 7
- 120 524 97 500 65 500 c 7
+215 500 m 3
+ 185 500 160 526 160 555 c 3
+ 160 587 183 610 215 610 c 3
+ 248 610 270 588 270 555 c 3
+ 270 524 247 500 215 500 c 3
+65 500 m 3
+ 35 500 10 526 10 555 c 3
+ 10 587 33 610 65 610 c 3
+ 98 610 120 588 120 555 c 3
+ 120 524 97 500 65 500 c 3
 EndSplineSet
 Validated: 1
 EndChar
@@ -3481,13 +3481,13 @@ Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-30 664 m 7
- 30 684 43 700 63 700 c 7
- 91 700 102 683 109 661 c 6
- 156 519 l 5
- 139 509 l 5
- 55 613 l 6
- 41 629 30 641 30 664 c 7
+30 664 m 3
+ 30 684 43 700 63 700 c 3
+ 91 700 102 683 109 661 c 2
+ 156 519 l 1
+ 139 509 l 1
+ 55 613 l 2
+ 41 629 30 641 30 664 c 3
 EndSplineSet
 Validated: 1
 EndChar
@@ -5793,21 +5793,11 @@ StartChar: gravecomb
 Encoding: 768 768 168
 Width: 166
 VWidth: 838
-Flags: W
-HStem: 509 191
-VStem: 20 79<661 693.883>
-AnchorPoint: "upper" 109 509 mark 0
+Flags: HMW
+AnchorPoint: "upper" 99 509 mark 0
 LayerCount: 2
 Fore
-SplineSet
-20 664 m 7
- 20 684 33 700 53 700 c 7
- 81 700 92 683 99 661 c 6
- 146 519 l 5
- 129 509 l 5
- 45 613 l 6
- 31 629 20 641 20 664 c 7
-EndSplineSet
+Refer: 98 96 N 1 0 0 1 -10 0 2
 Validated: 1
 EndChar
 
@@ -5815,21 +5805,12 @@ StartChar: acutecomb
 Encoding: 769 769 169
 Width: 166
 VWidth: 838
-Flags: W
+Flags: MW
 HStem: 509 191
-VStem: 67 79<661 693.883>
 AnchorPoint: "upper" 57 509 mark 0
 LayerCount: 2
 Fore
-SplineSet
-146 664 m 3
- 146 641 135 629 121 613 c 2
- 37 509 l 1
- 20 519 l 1
- 67 661 l 2
- 74 683 85 700 113 700 c 3
- 133 700 146 684 146 664 c 3
-EndSplineSet
+Refer: 88 180 N 1 0 0 1 -10 0 2
 Validated: 1
 EndChar
 
@@ -5837,8 +5818,6 @@ StartChar: Agrave
 Encoding: 192 192 170
 Width: 643
 VWidth: 0
-HStem: 700 191
-VStem: 230 79<852 884.883>
 LayerCount: 2
 Fore
 Refer: 168 768 N 1 0 0 1 210 191 2
@@ -5851,7 +5830,6 @@ Encoding: 193 193 171
 Width: 643
 VWidth: 0
 HStem: 700 191
-VStem: 329 79<852 884.883>
 LayerCount: 2
 Fore
 Refer: 169 769 N 1 0 0 1 262 191 2
@@ -5896,8 +5874,6 @@ StartChar: Igrave
 Encoding: 204 204 175
 Width: 289
 VWidth: 0
-HStem: 700 191
-VStem: 51 79<852 884.883>
 LayerCount: 2
 Fore
 Refer: 168 768 N 1 0 0 1 31 191 2
@@ -5910,7 +5886,6 @@ Encoding: 205 205 176
 Width: 289
 VWidth: 0
 HStem: 700 191
-VStem: 150 79<852 884.883>
 LayerCount: 2
 Fore
 Refer: 169 769 N 1 0 0 1 83 191 2
@@ -5944,8 +5919,6 @@ StartChar: Ograve
 Encoding: 210 210 179
 Width: 679
 VWidth: 0
-HStem: 700 191
-VStem: 251 79<852 884.883>
 LayerCount: 2
 Fore
 Refer: 168 768 N 1 0 0 1 231 191 2
@@ -5958,7 +5931,6 @@ Encoding: 211 211 180
 Width: 679
 VWidth: 0
 HStem: 700 191
-VStem: 350 79<852 884.883>
 LayerCount: 2
 Fore
 Refer: 169 769 N 1 0 0 1 283 191 2
@@ -6003,8 +5975,6 @@ StartChar: Egrave
 Encoding: 200 200 184
 Width: 553
 VWidth: 0
-HStem: 700 191
-VStem: 221 79<852 884.883>
 LayerCount: 2
 Fore
 Refer: 168 768 N 1 0 0 1 201 191 2
@@ -6017,7 +5987,6 @@ Encoding: 201 201 185
 Width: 553
 VWidth: 0
 HStem: 700 191
-VStem: 320 79<852 884.883>
 LayerCount: 2
 Fore
 Refer: 169 769 N 1 0 0 1 253 191 2
@@ -6051,8 +6020,6 @@ StartChar: Ugrave
 Encoding: 217 217 188
 Width: 630
 VWidth: 0
-HStem: 700 191
-VStem: 236 79<852 884.883>
 LayerCount: 2
 Fore
 Refer: 168 768 N 1 0 0 1 216 191 2
@@ -6065,7 +6032,6 @@ Encoding: 218 218 189
 Width: 630
 VWidth: 0
 HStem: 700 191
-VStem: 335 79<852 884.883>
 LayerCount: 2
 Fore
 Refer: 169 769 N 1 0 0 1 268 191 2
@@ -6127,6 +6093,18 @@ SplineSet
  300 96 321 117 350 117 c 3
  406 117 384 45 445 45 c 3
 EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: uni0308
+Encoding: 776 776 193
+Width: 280
+VWidth: 838
+Flags: W
+AnchorPoint: "upper" 140 500 mark 0
+LayerCount: 2
+Fore
+Refer: 91 168 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 EndChars
