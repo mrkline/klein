@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1452917949
-ModificationTime: 1459108857
+ModificationTime: 1459108996
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -91,7 +91,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 19 16
+WinInfo: 95 19 16
 BeginPrivate: 8
 BlueValues 31 [-10 0 450 460 650 660 700 710]
 OtherBlues 11 [-210 -200]
@@ -167,7 +167,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 367002 157286 104858 471859 1048576 262144 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "upper" "upper diacritics" 
-BeginChars: 65537 196
+BeginChars: 65537 197
 
 StartChar: l
 Encoding: 108 108 0
@@ -323,6 +323,7 @@ SplineSet
  190 -200 148 -210 105 -210 c 3
  68 -210 37 -190 37 -154 c 3
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: z
@@ -2038,7 +2039,8 @@ StartChar: Y
 Encoding: 89 89 45
 Width: 609
 VWidth: 838
-Flags: HMW
+Flags: HMWO
+AnchorPoint: "upper" 320 700 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2052,7 +2054,7 @@ SplineSet
  230 630 l 1
  198 630 175 617 175 597 c 3
  175 592 177 586 180 580 c 2
- 324 326 l 5
+ 324 328 l 5
  459 580 l 2
  462 586 464 592 464 597 c 3
  464 617 441 630 409 630 c 1
@@ -6322,11 +6324,12 @@ StartChar: yacute
 Encoding: 253 253 194
 Width: 458
 VWidth: 0
-Flags: HO
+Flags: H
 LayerCount: 2
 Fore
 Refer: 169 769 N 1 0 0 1 192 -9 2
 Refer: 3 121 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: ydieresis
@@ -6338,6 +6341,19 @@ LayerCount: 2
 Fore
 Refer: 193 776 N 1 0 0 1 79 0 2
 Refer: 3 121 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: Yacute
+Encoding: 221 221 196
+Width: 609
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+Refer: 169 769 N 1 0 0 1 263 191 2
+Refer: 45 89 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 EndChars
 EndSplineFont
