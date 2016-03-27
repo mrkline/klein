@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1452917949
-ModificationTime: 1459108730
+ModificationTime: 1459108857
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -167,7 +167,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 367002 157286 104858 471859 1048576 262144 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "upper" "upper diacritics" 
-BeginChars: 65537 194
+BeginChars: 65537 196
 
 StartChar: l
 Encoding: 108 108 0
@@ -295,6 +295,7 @@ Encoding: 121 121 3
 Width: 458
 VWidth: 838
 Flags: HMW
+AnchorPoint: "upper" 249 500 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -302,7 +303,7 @@ SplineSet
  37 -127 55 -110 83 -110 c 3
  127 -110 114 -156 131 -156 c 3
  140 -156 159 -146 170 -113 c 2
- 225 48 l 5
+ 224 48 l 5
  90 380 l 2
  78 410 60 430 30 430 c 1
  30 450 l 1
@@ -322,7 +323,6 @@ SplineSet
  190 -200 148 -210 105 -210 c 3
  68 -210 37 -190 37 -154 c 3
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: z
@@ -451,7 +451,7 @@ EndChar
 StartChar: s
 Encoding: 115 115 7
 Width: 366
-Flags: HMWO
+Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
@@ -2078,28 +2078,28 @@ Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-25 650 m 5
- 292 650 l 6
- 394 650 471 610 503 540 c 4
- 514 515 519 490 519 459 c 7
- 519 364 452 312 374 292 c 4
- 345 285 312 281 276 281 c 6
- 190 281 l 5
- 190 35 l 5
- 265 20 l 5
- 265 0 l 5
- 25 0 l 5
- 25 20 l 5
- 100 35 l 5
- 100 615 l 5
- 25 630 l 5
- 25 650 l 5
-190 336 m 5
- 252 336 l 6
- 362 336 419 382 419 467 c 7
- 419 569 370 601 267 601 c 6
- 190 601 l 5
- 190 336 l 5
+25 650 m 1
+ 292 650 l 2
+ 394 650 471 610 503 540 c 0
+ 514 515 519 490 519 459 c 3
+ 519 364 452 312 374 292 c 0
+ 345 285 312 281 276 281 c 2
+ 190 281 l 1
+ 190 35 l 1
+ 265 20 l 1
+ 265 0 l 1
+ 25 0 l 1
+ 25 20 l 1
+ 100 35 l 1
+ 100 615 l 1
+ 25 630 l 1
+ 25 650 l 1
+190 336 m 1
+ 252 336 l 2
+ 362 336 419 382 419 467 c 3
+ 419 569 370 601 267 601 c 2
+ 190 601 l 1
+ 190 336 l 1
 EndSplineSet
 Validated: 1
 EndChar
@@ -6316,6 +6316,28 @@ LayerCount: 2
 Fore
 Refer: 91 168 N 1 0 0 1 0 0 2
 Validated: 1
+EndChar
+
+StartChar: yacute
+Encoding: 253 253 194
+Width: 458
+VWidth: 0
+Flags: HO
+LayerCount: 2
+Fore
+Refer: 169 769 N 1 0 0 1 192 -9 2
+Refer: 3 121 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: ydieresis
+Encoding: 255 255 195
+Width: 458
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+Refer: 193 776 N 1 0 0 1 79 0 2
+Refer: 3 121 N 1 0 0 1 0 0 3
 EndChar
 EndChars
 EndSplineFont
