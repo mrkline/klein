@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1452917949
-ModificationTime: 1459046837
+ModificationTime: 1459047087
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -91,7 +91,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 19 19 16
+WinInfo: 0 19 16
 BeginPrivate: 8
 BlueValues 31 [-10 0 450 460 650 660 700 710]
 OtherBlues 11 [-210 -200]
@@ -517,32 +517,56 @@ StartChar: b
 Encoding: 98 98 9
 Width: 493
 VWidth: 838
-Flags: HMW
+Flags: HMWO
 LayerCount: 2
+Back
+SplineSet
+145 400 m 5
+ 145 400 194 460 255 460 c 7
+ 375 460 462 355 462 233 c 7
+ 462 92 365 -10 225 -10 c 7
+ 184 -10 145 10 145 10 c 1
+ 145 -180 l 1
+ 205 -190 l 1
+ 205 -210 l 1
+ 5 -210 l 1
+ 5 -190 l 1
+ 65 -180 l 1
+ 65 380 l 1
+ -5 400 l 1
+ -5 420 l 1
+ 75 435 105 445 135 460 c 1
+ 145 460 l 1
+ 145 400 l 5
+145 75 m 6
+ 145 55 183 35 230 35 c 7
+ 318 35 372 127 372 218 c 7
+ 372 317 331 410 239 410 c 7
+ 184 410 145 350 145 330 c 6
+ 145 75 l 6
+EndSplineSet
 Fore
 SplineSet
-65 620 m 5
- 5 640 l 5
+145 75 m 2
+ 145 55 183 35 230 35 c 3
+ 318 35 372 127 372 218 c 3
+ 372 317 331 410 239 410 c 3
+ 184 410 145 350 145 330 c 2
+ 145 75 l 2
+120 30 m 1
+ 85 0 l 1
+ 65 0 l 1
+ 65 620 l 1
+ 5 640 l 1
  5 660 l 1
  85 675 105 685 135 700 c 1
  145 700 l 1
- 145 410 l 1
- 180 447 222 460 272 460 c 3
- 392 460 458 361 458 241 c 0
- 458 101 373 -10 237 -10 c 0
- 195 -10 156 4 122 30 c 1
- 118 30 l 1
- 79 0 l 1
- 65 0 l 1
- 65 620 l 5
-145 126 m 2
- 145 66 178 35 236 35 c 3
- 323 35 368 152 368 241 c 3
- 368 342 330 410 237 410 c 3
- 195 410 165 385 145 360 c 1
- 145 126 l 2
+ 145 400 l 1
+ 145 400 194 460 255 460 c 3
+ 375 460 462 355 462 233 c 3
+ 462 92 365 -10 225 -10 c 3
+ 159 -10 120 30 120 30 c 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: v
@@ -1199,7 +1223,7 @@ StartChar: r
 Encoding: 114 114 28
 Width: 355
 VWidth: 838
-Flags: HMWO
+Flags: HMW
 LayerCount: 2
 Back
 SplineSet
@@ -1524,7 +1548,7 @@ SplineSet
  165 400 l 1
 165 75 m 2
  165 55 203 35 250 35 c 3
- 338 35 392 127 392 218 c 7
+ 338 35 392 127 392 218 c 3
  392 317 351 410 259 410 c 3
  204 410 165 350 165 330 c 2
  165 75 l 2
