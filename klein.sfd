@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1452917949
-ModificationTime: 1459041196
+ModificationTime: 1459046837
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -91,7 +91,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 38 19 16
+WinInfo: 19 19 16
 BeginPrivate: 8
 BlueValues 31 [-10 0 450 460 650 660 700 710]
 OtherBlues 11 [-210 -200]
@@ -1199,7 +1199,7 @@ StartChar: r
 Encoding: 114 114 28
 Width: 355
 VWidth: 838
-Flags: HMW
+Flags: HMWO
 LayerCount: 2
 Back
 SplineSet
@@ -1228,24 +1228,24 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-85 380 m 5
- 25 400 l 5
- 25 420 l 5
- 105 435 125 445 155 460 c 5
- 165 460 l 5
- 165 400 l 5
- 165 400 214 460 275 460 c 7
- 304 460 330 439 330 410 c 7
- 330 383 308 360 280 360 c 7
- 252 360 246 390 220 390 c 7
- 195 390 165 350 165 330 c 6
- 165 30 l 5
- 225 20 l 5
- 225 0 l 5
- 25 0 l 5
- 25 20 l 5
- 85 30 l 5
- 85 380 l 5
+85 380 m 1
+ 25 400 l 1
+ 25 420 l 1
+ 105 435 125 445 155 460 c 1
+ 165 460 l 1
+ 165 400 l 1
+ 165 400 214 460 275 460 c 3
+ 304 460 330 439 330 410 c 3
+ 330 383 308 360 280 360 c 3
+ 252 360 246 390 220 390 c 3
+ 195 390 165 350 165 330 c 2
+ 165 30 l 1
+ 225 20 l 1
+ 225 0 l 1
+ 25 0 l 1
+ 25 20 l 1
+ 85 30 l 1
+ 85 380 l 1
 EndSplineSet
 Validated: 1
 EndChar
@@ -1482,13 +1482,34 @@ Width: 517
 VWidth: 838
 Flags: HMW
 LayerCount: 2
+Back
+SplineSet
+85 380 m 1
+ 25 400 l 1
+ 25 420 l 1
+ 105 435 125 445 155 460 c 1
+ 165 460 l 1
+ 165 400 l 1
+ 165 400 214 460 275 460 c 3
+ 304 460 330 439 330 410 c 3
+ 330 383 308 360 280 360 c 3
+ 252 360 246 390 220 390 c 3
+ 195 390 165 350 165 330 c 2
+ 165 30 l 1
+ 225 20 l 1
+ 225 0 l 1
+ 25 0 l 1
+ 25 20 l 1
+ 85 30 l 1
+ 85 380 l 1
+EndSplineSet
 Fore
 SplineSet
 165 400 m 1
- 165 400 206 460 302 460 c 3
- 422 460 482 355 482 233 c 3
+ 165 400 214 460 275 460 c 3
+ 395 460 482 355 482 233 c 3
  482 92 385 -10 245 -10 c 3
- 214 -10 190 -4 165 4 c 1
+ 204 -10 165 10 165 10 c 1
  165 -180 l 1
  225 -190 l 1
  225 -210 l 1
@@ -1501,14 +1522,13 @@ SplineSet
  95 435 125 445 155 460 c 1
  165 460 l 1
  165 400 l 1
-165 119 m 2
- 165 71 202 35 249 35 c 3
- 337 35 392 129 392 220 c 3
- 392 319 351 410 259 410 c 3
- 222 410 178 375 165 350 c 1
- 165 119 l 2
+165 75 m 2
+ 165 55 203 35 250 35 c 3
+ 338 35 392 127 392 218 c 7
+ 392 317 351 410 259 410 c 3
+ 204 410 165 350 165 330 c 2
+ 165 75 l 2
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: q
@@ -5804,7 +5824,7 @@ StartChar: ntilde
 Encoding: 241 241 163
 Width: 515
 VWidth: 0
-Flags: HMWO
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 145 732 N 1 0 0 1 33 -10 2
