@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1452917949
-ModificationTime: 1459047087
+ModificationTime: 1459047164
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -202,32 +202,32 @@ AnchorPoint: "upper" 249 510 basechar 0
 LayerCount: 2
 Back
 SplineSet
-251 458 m 4
- 283 458 312 452 339 440 c 4
- 366 428 388 412 408 392 c 4
- 428 372 443 347 454 319 c 4
- 465 291 471 260 471 227 c 4
- 471 194 465 163 454 135 c 4
- 443 107 428 83 408 62 c 4
- 388 41 366 25 339 14 c 4
- 312 3 283 -3 251 -3 c 4
- 219 -3 190 3 163 14 c 4
- 136 25 113 41 93 62 c 4
- 73 83 58 107 47 135 c 4
- 36 163 30 194 30 227 c 4
- 30 260 36 291 47 319 c 4
- 58 347 73 372 93 392 c 4
- 113 412 136 428 163 440 c 4
- 190 452 219 458 251 458 c 4
-119 227 m 4
- 119 166 131 119 154 85 c 4
- 177 51 209 34 250 34 c 4
- 291 34 324 51 347 85 c 4
- 370 119 382 167 382 228 c 4
- 382 288 370 335 347 369 c 4
- 324 403 292 420 251 420 c 4
- 210 420 177 403 154 369 c 4
- 131 335 119 288 119 227 c 4
+251 458 m 0
+ 283 458 312 452 339 440 c 0
+ 366 428 388 412 408 392 c 0
+ 428 372 443 347 454 319 c 0
+ 465 291 471 260 471 227 c 0
+ 471 194 465 163 454 135 c 0
+ 443 107 428 83 408 62 c 0
+ 388 41 366 25 339 14 c 0
+ 312 3 283 -3 251 -3 c 0
+ 219 -3 190 3 163 14 c 0
+ 136 25 113 41 93 62 c 0
+ 73 83 58 107 47 135 c 0
+ 36 163 30 194 30 227 c 0
+ 30 260 36 291 47 319 c 0
+ 58 347 73 372 93 392 c 0
+ 113 412 136 428 163 440 c 0
+ 190 452 219 458 251 458 c 0
+119 227 m 0
+ 119 166 131 119 154 85 c 0
+ 177 51 209 34 250 34 c 0
+ 291 34 324 51 347 85 c 0
+ 370 119 382 167 382 228 c 0
+ 382 288 370 335 347 369 c 0
+ 324 403 292 420 251 420 c 0
+ 210 420 177 403 154 369 c 0
+ 131 335 119 288 119 227 c 0
 EndSplineSet
 Fore
 SplineSet
@@ -515,9 +515,9 @@ EndChar
 
 StartChar: b
 Encoding: 98 98 9
-Width: 493
+Width: 497
 VWidth: 838
-Flags: HMWO
+Flags: HMW
 LayerCount: 2
 Back
 SplineSet
@@ -903,7 +903,7 @@ StartChar: a
 Encoding: 97 97 18
 Width: 485
 VWidth: 838
-Flags: HMW
+Flags: HMWO
 AnchorPoint: "upper" 220 500 basechar 0
 LayerCount: 2
 Fore
@@ -925,13 +925,12 @@ SplineSet
  447 35 457 46 468 60 c 1
  480 48 l 1
  459 15 439 -10 394 -10 c 3
-119 121 m 3
- 119 79 158 35 215 35 c 3
+120 121 m 3
+ 120 79 158 35 215 35 c 3
  258 35 297 65 315 94 c 1
- 315 204 l 5
- 179 204 119 200 119 121 c 3
+ 315 204 l 1
+ 179 204 120 200 120 121 c 3
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: A
@@ -5594,7 +5593,6 @@ LayerCount: 2
 Fore
 Refer: 168 768 N 1 0 0 1 111 -9 2
 Refer: 18 97 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: adieresis
@@ -5606,7 +5604,6 @@ LayerCount: 2
 Fore
 Refer: 193 776 N 1 0 0 1 50 0 2
 Refer: 18 97 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: tilde
@@ -5640,7 +5637,6 @@ LayerCount: 2
 Fore
 Refer: 169 769 N 1 0 0 1 163 -9 2
 Refer: 18 97 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: atilde
@@ -5652,7 +5648,6 @@ LayerCount: 2
 Fore
 Refer: 145 732 N 1 0 0 1 -12 -20 2
 Refer: 18 97 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: acircumflex
@@ -5664,7 +5659,6 @@ LayerCount: 2
 Fore
 Refer: 149 710 N 1 0 0 1 21 -20 2
 Refer: 18 97 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: circumflex
