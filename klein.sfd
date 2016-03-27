@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1452917949
-ModificationTime: 1459108676
+ModificationTime: 1459108730
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -451,27 +451,27 @@ EndChar
 StartChar: s
 Encoding: 115 115 7
 Width: 366
-Flags: HMW
+Flags: HMWO
 LayerCount: 2
 Fore
 SplineSet
-45 335 m 4
- 45 423 111 460 204 460 c 7
- 239 460 283 456 306 446 c 5
- 306 331 l 5
- 286 331 l 5
- 267 403 245 410 197 410 c 7
- 153 410 125 384 125 345 c 4
- 125 271 233 261 271 235 c 4
- 302 214 326 181 326 128 c 7
- 326 37 262 -10 168 -10 c 7
- 129 -10 80 -3 50 8 c 5
- 45 143 l 5
- 65 143 l 5
- 83 55 120 35 175 35 c 7
- 213 35 246 69 246 113 c 7
- 246 187 148 199 101 231 c 4
- 70 253 45 282 45 335 c 4
+45 335 m 0
+ 45 423 111 460 204 460 c 3
+ 239 460 283 456 306 446 c 1
+ 306 331 l 1
+ 286 331 l 1
+ 267 403 245 410 197 410 c 3
+ 153 410 125 384 125 345 c 0
+ 125 271 233 261 271 235 c 0
+ 302 214 326 181 326 128 c 3
+ 326 37 262 -10 168 -10 c 3
+ 129 -10 80 -3 50 8 c 1
+ 50 143 l 1
+ 70 143 l 1
+ 88 55 120 35 175 35 c 3
+ 213 35 246 69 246 113 c 3
+ 246 187 148 199 101 231 c 0
+ 70 253 45 282 45 335 c 0
 EndSplineSet
 Validated: 1
 EndChar
@@ -6236,7 +6236,7 @@ StartChar: germandbls
 Encoding: 223 223 192
 Width: 607
 VWidth: 838
-Flags: HMWO
+Flags: HMW
 LayerCount: 2
 Back
 SplineSet
