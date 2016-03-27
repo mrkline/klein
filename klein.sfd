@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1452917949
-ModificationTime: 1459050268
+ModificationTime: 1459050563
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -638,7 +638,7 @@ StartChar: c
 Encoding: 99 99 12
 Width: 444
 VWidth: 838
-Flags: HMWO
+Flags: HMW
 AnchorPoint: "upper" 250 510 basechar 0
 LayerCount: 2
 Back
@@ -1011,12 +1011,11 @@ SplineSet
  526 551 474 610 356 610 c 3
  200 610 140 496 140 330 c 3
  140 164 201 45 356 45 c 3
- 479 45 518 108 547 145 c 1
- 572 130 l 1
- 546 70 484 -10 339 -10 c 3
+ 511 45 557 145 557 145 c 1
+ 582 130 l 1
+ 582 130 529 -10 339 -10 c 3
  149 -10 35 132 35 323 c 3
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: D
@@ -1179,25 +1178,24 @@ EndChar
 
 StartChar: O
 Encoding: 79 79 27
-Width: 679
+Width: 680
 VWidth: 838
-Flags: HMW
+Flags: HMWO
 AnchorPoint: "upper" 340 700 basechar 0
 LayerCount: 2
 Fore
 SplineSet
 340 660 m 3
- 526 660 644 515 644 328 c 3
- 644 141 526 -10 340 -10 c 3
- 154 -10 35 141 35 328 c 3
- 35 515 154 660 340 660 c 3
-140 329 m 3
- 140 176 191 45 340 45 c 3
- 489 45 539 178 539 331 c 3
- 539 484 489 600 340 600 c 7
- 190 600 140 482 140 329 c 3
+ 530 660 645 520 645 330 c 3
+ 645 140 530 -10 340 -10 c 3
+ 150 -10 35 140 35 330 c 3
+ 35 520 150 660 340 660 c 3
+140 330 m 3
+ 140 180 190 45 340 45 c 3
+ 490 45 540 180 540 330 c 3
+ 540 480 490 600 340 600 c 3
+ 190 600 140 480 140 330 c 3
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: r
@@ -6042,62 +6040,57 @@ EndChar
 
 StartChar: Ograve
 Encoding: 210 210 179
-Width: 679
+Width: 680
 VWidth: 0
-Flags: M
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 168 768 N 1 0 0 1 231 191 2
 Refer: 27 79 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: Oacute
 Encoding: 211 211 180
-Width: 679
+Width: 680
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 169 769 N 1 0 0 1 283 191 2
 Refer: 27 79 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: Ocircumflex
 Encoding: 212 212 181
-Width: 679
+Width: 680
 VWidth: 0
-Flags: M
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 149 710 N 1 0 0 1 141 180 2
 Refer: 27 79 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: Otilde
 Encoding: 213 213 182
-Width: 679
+Width: 680
 VWidth: 0
-Flags: M
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 145 732 N 1 0 0 1 108 180 2
 Refer: 27 79 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: Odieresis
 Encoding: 214 214 183
-Width: 679
+Width: 680
 VWidth: 0
-Flags: M
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 193 776 N 1 0 0 1 170 200 2
 Refer: 27 79 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: Egrave
