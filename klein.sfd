@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1452917949
-ModificationTime: 1459050563
+ModificationTime: 1459052580
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -994,28 +994,41 @@ EndChar
 
 StartChar: C
 Encoding: 67 67 21
-Width: 632
+Width: 631
 VWidth: 838
-Flags: HMW
+Flags: HMWO
 LayerCount: 2
+Back
+SplineSet
+340 660 m 7
+ 530 660 645 520 645 330 c 3
+ 645 140 530 -10 340 -10 c 7
+ 150 -10 35 140 35 330 c 7
+ 35 520 150 660 340 660 c 7
+140 330 m 7
+ 140 180 190 45 340 45 c 7
+ 490 45 540 180 540 330 c 3
+ 540 480 490 600 340 600 c 7
+ 190 600 140 480 140 330 c 7
+EndSplineSet
 Fore
 SplineSet
-35 323 m 3
- 35 516 150 660 342 660 c 3
- 414 660 476 637 523 608 c 1
- 526 608 l 1
- 567 650 l 1
- 582 650 l 1
- 582 458 l 1
- 557 458 l 1
- 526 551 474 610 356 610 c 3
- 200 610 140 496 140 330 c 3
- 140 164 201 45 356 45 c 3
- 511 45 557 145 557 145 c 1
- 582 130 l 1
- 582 130 529 -10 339 -10 c 3
- 149 -10 35 132 35 323 c 3
+340 -10 m 3
+ 150 -10 35 140 35 330 c 3
+ 35 520 150 660 340 660 c 3
+ 455 660 521 605 521 605 c 1
+ 566 650 l 1
+ 586 650 l 1
+ 586 458 l 1
+ 556 458 l 1
+ 556 458 490 600 340 600 c 3
+ 190 600 140 480 140 330 c 3
+ 140 180 190 45 340 45 c 3
+ 490 45 551 154 551 154 c 5
+ 586 134 l 5
+ 586 134 530 -10 340 -10 c 3
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: D
@@ -1180,7 +1193,7 @@ StartChar: O
 Encoding: 79 79 27
 Width: 680
 VWidth: 838
-Flags: HMWO
+Flags: HMW
 AnchorPoint: "upper" 340 700 basechar 0
 LayerCount: 2
 Fore
@@ -1196,6 +1209,7 @@ SplineSet
  540 480 490 600 340 600 c 3
  190 600 140 480 140 330 c 3
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: r
@@ -6047,6 +6061,7 @@ LayerCount: 2
 Fore
 Refer: 168 768 N 1 0 0 1 231 191 2
 Refer: 27 79 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: Oacute
@@ -6058,6 +6073,7 @@ LayerCount: 2
 Fore
 Refer: 169 769 N 1 0 0 1 283 191 2
 Refer: 27 79 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: Ocircumflex
@@ -6069,6 +6085,7 @@ LayerCount: 2
 Fore
 Refer: 149 710 N 1 0 0 1 141 180 2
 Refer: 27 79 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: Otilde
@@ -6080,6 +6097,7 @@ LayerCount: 2
 Fore
 Refer: 145 732 N 1 0 0 1 108 180 2
 Refer: 27 79 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: Odieresis
@@ -6091,6 +6109,7 @@ LayerCount: 2
 Fore
 Refer: 193 776 N 1 0 0 1 170 200 2
 Refer: 27 79 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: Egrave
