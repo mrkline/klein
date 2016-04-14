@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1452917949
-ModificationTime: 1460497053
+ModificationTime: 1460644486
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -613,27 +613,27 @@ AnchorPoint: "upper" 230 500 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-335 35 m 5
- 296 0 256 -10 188 -10 c 4
- 98 -10 80 50 80 142 c 6
- 80 420 l 5
- 20 430 l 5
- 20 450 l 5
- 160 450 l 5
- 160 162 l 6
- 160 91 162 35 230 35 c 4
- 278 35 310 55 335 85 c 5
- 335 420 l 5
- 275 430 l 5
- 275 450 l 5
- 415 450 l 5
- 415 50 l 5
- 475 30 l 5
- 475 20 l 5
- 355 -10 l 5
- 345 -10 l 5
- 345 30 l 5
- 335 35 l 5
+335 35 m 1
+ 296 0 256 -10 188 -10 c 0
+ 98 -10 80 50 80 142 c 2
+ 80 410 l 1
+ 20 430 l 1
+ 20 450 l 1
+ 160 450 l 1
+ 160 162 l 2
+ 160 91 162 35 230 35 c 0
+ 278 35 310 55 335 85 c 1
+ 335 410 l 1
+ 275 430 l 1
+ 275 450 l 1
+ 415 450 l 1
+ 415 50 l 1
+ 475 30 l 1
+ 475 20 l 1
+ 355 -10 l 1
+ 345 -10 l 1
+ 345 30 l 1
+ 335 35 l 1
 EndSplineSet
 Validated: 1
 EndChar
