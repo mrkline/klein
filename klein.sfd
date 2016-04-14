@@ -5,7 +5,7 @@ FamilyName: Klein
 Weight: Regular
 Copyright: Copyright (c) 2016 by Matt Kline\nLicensed under the SIL Open Font License (OFL)\nDevelopment is ongoing at at https://github.com/mrkline/klein
 UComments: "2016-1-15: Created with FontForge (http://fontforge.org)"
-Version: 0.2
+Version: 0.3
 ItalicAngle: 0
 UnderlinePosition: -20
 UnderlineWidth: 50
@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1452917949
-ModificationTime: 1460644486
+ModificationTime: 1460666045
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -92,7 +92,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 38 38 14
+WinInfo: 0 38 14
 BeginPrivate: 8
 BlueValues 31 [-10 0 450 460 650 660 700 710]
 OtherBlues 11 [-210 -200]
