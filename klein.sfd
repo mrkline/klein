@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1452917949
-ModificationTime: 1460666045
+ModificationTime: 1461026136
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -92,7 +92,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 38 14
+WinInfo: 38 38 14
 BeginPrivate: 8
 BlueValues 31 [-10 0 450 460 650 660 700 710]
 OtherBlues 11 [-210 -200]
@@ -640,9 +640,9 @@ EndChar
 
 StartChar: c
 Encoding: 99 99 12
-Width: 444
+Width: 453
 VWidth: 838
-Flags: HMW
+Flags: HMWO
 AnchorPoint: "upper" 250 510 basechar 0
 LayerCount: 2
 Back
@@ -666,8 +666,8 @@ SplineSet
  155 410 120 329 120 225 c 7
  120 122 155 35 250 35 c 7
  345 35 403 126 403 126 c 5
- 419 118 l 5
- 419 118 375 -10 250 -10 c 7
+ 428 111 l 5
+ 428 111 375 -10 250 -10 c 7
  125 -10 30 100 30 225 c 7
  30 350 125 460 250 460 c 7
  320 460 409 416 409 369 c 7
@@ -677,32 +677,32 @@ EndChar
 
 StartChar: e
 Encoding: 101 101 13
-Width: 459
+Width: 458
 VWidth: 838
-Flags: HMW
+Flags: HMWO
 AnchorPoint: "upper" 230 510 basechar 0
 LayerCount: 2
 Back
 SplineSet
-409 369 m 3
- 409 344 393 328 368 328 c 3
- 308 328 345 410 250 410 c 3
- 155 410 120 329 120 225 c 3
- 120 122 155 35 250 35 c 3
- 345 35 403 126 403 126 c 1
- 419 118 l 1
- 419 118 375 -10 250 -10 c 3
- 125 -10 30 100 30 225 c 3
- 30 350 125 460 250 460 c 3
- 320 460 409 416 409 369 c 3
+409 369 m 7
+ 409 344 393 328 368 328 c 7
+ 308 328 345 410 250 410 c 7
+ 155 410 120 329 120 225 c 7
+ 120 122 155 35 250 35 c 7
+ 345 35 403 126 403 126 c 5
+ 428 111 l 5
+ 428 111 375 -10 250 -10 c 7
+ 125 -10 30 100 30 225 c 7
+ 30 350 125 460 250 460 c 7
+ 320 460 409 416 409 369 c 7
 EndSplineSet
 Fore
 SplineSet
 120 235 m 1
  120 125 152 35 250 35 c 3
  345 35 403 126 403 126 c 1
- 419 118 l 1
- 419 118 375 -10 250 -10 c 3
+ 428 111 l 1
+ 428 111 375 -10 250 -10 c 3
  125 -10 30 100 30 225 c 3
  30 350 125 460 250 460 c 3
  375 460 424 350 424 280 c 3
@@ -1047,13 +1047,13 @@ SplineSet
  455 660 521 605 521 605 c 1
  566 650 l 1
  586 650 l 1
- 586 458 l 5
- 556 458 l 5
+ 586 458 l 1
+ 556 458 l 1
  556 458 490 600 340 600 c 3
  190 600 140 480 140 330 c 3
  140 180 190 45 340 45 c 3
  490 45 551 154 551 154 c 1
- 586 134 l 1
+ 586 134 l 5
  586 134 530 -10 340 -10 c 3
 EndSplineSet
 Validated: 1
@@ -5869,9 +5869,9 @@ EndChar
 
 StartChar: egrave
 Encoding: 232 232 159
-Width: 459
+Width: 458
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 168 768 N 1 0 0 1 131 1 2
@@ -5881,9 +5881,9 @@ EndChar
 
 StartChar: eacute
 Encoding: 233 233 160
-Width: 459
+Width: 458
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 169 769 N 1 0 0 1 173 1 2
@@ -5893,9 +5893,9 @@ EndChar
 
 StartChar: ecircumflex
 Encoding: 234 234 161
-Width: 459
+Width: 458
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 149 710 N 1 0 0 1 31 -10 2
@@ -5905,9 +5905,9 @@ EndChar
 
 StartChar: edieresis
 Encoding: 235 235 162
-Width: 459
+Width: 458
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 193 776 N 1 0 0 1 60 10 2
