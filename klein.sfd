@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1452917949
-ModificationTime: 1461100811
+ModificationTime: 1461363413
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -92,7 +92,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 38 38 14
+WinInfo: 36 12 14
 BeginPrivate: 8
 BlueValues 31 [-10 0 450 460 650 660 700 710]
 OtherBlues 11 [-210 -200]
@@ -640,9 +640,9 @@ EndChar
 
 StartChar: c
 Encoding: 99 99 12
-Width: 453
+Width: 448
 VWidth: 838
-Flags: HMW
+Flags: HMWO
 AnchorPoint: "upper" 250 510 basechar 0
 LayerCount: 2
 Back
@@ -660,24 +660,24 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-409 369 m 7
- 409 344 393 328 368 328 c 7
- 308 328 345 410 250 410 c 7
- 155 410 120 329 120 225 c 7
- 120 122 155 35 250 35 c 7
- 345 35 403 126 403 126 c 5
- 428 111 l 5
- 428 111 375 -10 250 -10 c 7
- 125 -10 30 100 30 225 c 7
- 30 350 125 460 250 460 c 7
- 320 460 409 416 409 369 c 7
+409 369 m 3
+ 409 344 393 328 368 328 c 3
+ 308 328 345 410 250 410 c 3
+ 155 410 120 329 120 225 c 3
+ 120 122 155 35 250 35 c 3
+ 345 35 393 126 393 126 c 1
+ 418 111 l 1
+ 418 111 375 -10 250 -10 c 3
+ 125 -10 30 100 30 225 c 3
+ 30 350 125 460 250 460 c 3
+ 320 460 409 416 409 369 c 3
 EndSplineSet
 Validated: 1
 EndChar
 
 StartChar: e
 Encoding: 101 101 13
-Width: 458
+Width: 459
 VWidth: 838
 Flags: HMW
 AnchorPoint: "upper" 240 510 basechar 0
@@ -689,9 +689,9 @@ SplineSet
  308 328 345 410 250 410 c 7
  155 410 120 329 120 225 c 7
  120 122 155 35 250 35 c 7
- 345 35 403 126 403 126 c 5
- 428 111 l 5
- 428 111 375 -10 250 -10 c 7
+ 345 35 393 126 393 126 c 5
+ 418 111 l 5
+ 418 111 375 -10 250 -10 c 7
  125 -10 30 100 30 225 c 7
  30 350 125 460 250 460 c 7
  320 460 409 416 409 369 c 7
@@ -700,9 +700,9 @@ Fore
 SplineSet
 120 235 m 1
  120 125 152 35 250 35 c 3
- 345 35 403 126 403 126 c 1
- 428 111 l 1
- 428 111 375 -10 250 -10 c 3
+ 345 35 393 126 393 126 c 1
+ 418 111 l 1
+ 418 111 375 -10 250 -10 c 3
  125 -10 30 100 30 225 c 3
  30 350 125 460 250 460 c 3
  375 460 424 350 424 280 c 3
@@ -5862,9 +5862,9 @@ EndChar
 
 StartChar: egrave
 Encoding: 232 232 159
-Width: 458
+Width: 459
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 168 768 N 1 0 0 1 141 1 2
@@ -5874,9 +5874,9 @@ EndChar
 
 StartChar: eacute
 Encoding: 233 233 160
-Width: 458
+Width: 459
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 169 769 N 1 0 0 1 183 1 2
@@ -5886,9 +5886,9 @@ EndChar
 
 StartChar: ecircumflex
 Encoding: 234 234 161
-Width: 458
+Width: 459
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 149 710 N 1 0 0 1 41 -10 2
@@ -5898,9 +5898,9 @@ EndChar
 
 StartChar: edieresis
 Encoding: 235 235 162
-Width: 458
+Width: 459
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 2
 Fore
 Refer: 193 776 N 1 0 0 1 70 10 2
