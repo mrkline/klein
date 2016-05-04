@@ -976,7 +976,7 @@ SplineSet
  224 245 l 1
 EndSplineSet
 Validated: 1
-Kerns2: 19 15 "per glyph"
+Kerns2: 19 20 "per glyph"
 EndChar
 
 StartChar: B
