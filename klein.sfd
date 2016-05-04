@@ -787,7 +787,6 @@ SplineSet
  327 700 382 676 382 629 c 3
 EndSplineSet
 Validated: 1
-Kerns2: 0 75 "per glyph"
 EndChar
 
 StartChar: g
