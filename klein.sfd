@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1452917949
-ModificationTime: 1463150395
+ModificationTime: 1463150689
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -6479,8 +6479,8 @@ SplineSet
  440 0 l 2
 EndSplineSet
 Validated: 1
+Ligature2: "'dlig' discretionary/historic ligatures-subtable" f j
 LCarets2: 1 270
-Ligature2: "'liga' standard ligatures-subtable" f j
 EndChar
 EndChars
 EndSplineFont
