@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1452917949
-ModificationTime: 1463110323
+ModificationTime: 1463111110
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -92,7 +92,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 38 38 16
+WinInfo: 64942 38 16
 BeginPrivate: 8
 BlueValues 31 [-10 0 450 460 650 660 700 710]
 OtherBlues 11 [-210 -200]
@@ -165,7 +165,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 367002 157286 104858 471859 1048576 262144 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "upper" "upper diacritics" 
-BeginChars: 65537 198
+BeginChars: 65538 199
 
 StartChar: l
 Encoding: 108 108 0
@@ -674,7 +674,7 @@ StartChar: e
 Encoding: 101 101 13
 Width: 459
 VWidth: 838
-Flags: HMWO
+Flags: HMW
 AnchorPoint: "upper" 240 510 basechar 0
 LayerCount: 2
 Back
@@ -5263,21 +5263,21 @@ Fore
 SplineSet
 430 490 m 1
  440 490 l 1
- 440 40 l 5
- 500 30 l 5
+ 440 40 l 1
+ 500 30 l 1
  500 0 l 1
  300 0 l 1
- 300 30 l 5
- 360 40 l 5
+ 300 30 l 1
+ 360 40 l 1
  360 390 l 1
  300 410 l 1
  180 410 l 1
- 180 40 l 5
- 240 30 l 5
+ 180 40 l 1
+ 240 30 l 1
  240 0 l 1
  40 0 l 1
- 40 30 l 5
- 100 40 l 5
+ 40 30 l 1
+ 100 40 l 1
  100 410 l 1
  20 410 l 1
  35 450 l 1
@@ -5590,7 +5590,7 @@ SplineSet
  690 410 l 1
 EndSplineSet
 Validated: 1
-LCarets2: 1 0
+LCarets2: 1 510
 Ligature2: "'dlig' discretionary/historic ligatures-subtable" T h
 EndChar
 
@@ -6402,6 +6402,85 @@ Fore
 Refer: 145 732 N 1 0 0 1 105 180 2
 Refer: 40 78 N 1 0 0 1 0 0 3
 Validated: 1
+EndChar
+
+StartChar: f_j
+Encoding: 65537 -1 198
+Width: 520
+VWidth: 838
+Flags: HWO
+LayerCount: 2
+Back
+SplineSet
+430 490 m 1
+ 440 490 l 1
+ 440 40 l 1
+ 500 30 l 1
+ 500 0 l 1
+ 300 0 l 1
+ 300 30 l 1
+ 360 40 l 1
+ 360 390 l 1
+ 300 410 l 1
+ 180 410 l 1
+ 180 40 l 1
+ 240 30 l 1
+ 240 0 l 1
+ 40 0 l 1
+ 40 30 l 1
+ 100 40 l 1
+ 100 410 l 1
+ 20 410 l 1
+ 35 450 l 1
+ 100 450 l 1
+ 100 543 l 6
+ 100 609 133 646 176 673 c 4
+ 202 689 237 700 270 700 c 7
+ 354 700 441 676 441 629 c 4
+ 441 604 425 588 400 588 c 4
+ 340 588 373 660 270 660 c 7
+ 196 660 180 627 180 495 c 6
+ 180 450 l 1
+ 300 450 l 1
+ 380 465 400 475 430 490 c 1
+EndSplineSet
+Fore
+SplineSet
+440 0 m 2
+ 440 -40 421 -165 248 -165 c 3
+ 197 -165 155 -144 155 -97 c 3
+ 155 -67 172 -47 201 -47 c 3
+ 257 -47 228 -116 289 -116 c 3
+ 346 -116 360 -59 360 0 c 2
+ 360 0 360 260 360 390 c 1
+ 300 410 l 1
+ 180 410 l 1
+ 180 40 l 1
+ 240 30 l 1
+ 240 0 l 1
+ 40 0 l 1
+ 40 30 l 1
+ 100 40 l 1
+ 100 410 l 1
+ 20 410 l 1
+ 35 450 l 1
+ 100 450 l 1
+ 100 543 l 2
+ 100 609 133 646 176 673 c 0
+ 202 689 237 700 270 700 c 3
+ 354 700 441 676 441 629 c 3
+ 441 604 425 588 400 588 c 3
+ 340 588 373 660 270 660 c 3
+ 196 660 180 627 180 495 c 2
+ 180 450 l 1
+ 300 450 l 1
+ 380 465 400 475 430 490 c 1
+ 440 490 l 1
+ 440 0 l 2
+EndSplineSet
+Validated: 1
+LCarets2: 1 270
+Ligature2: "'liga' standard ligatures-subtable" f j
 EndChar
 EndChars
 EndSplineFont
