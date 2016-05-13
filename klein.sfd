@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1452917949
-ModificationTime: 1463151779
+ModificationTime: 1463151893
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -353,29 +353,29 @@ EndChar
 
 StartChar: i
 Encoding: 105 105 5
-Width: 245
+Width: 250
 VWidth: 838
 Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-155 460 m 1
- 165 460 l 1
- 165 40 l 5
- 225 30 l 5
- 225 0 l 1
- 25 0 l 1
- 25 30 l 5
- 85 40 l 5
- 85 380 l 1
- 25 400 l 1
- 25 420 l 1
- 105 435 125 445 155 460 c 1
-125 549 m 3
- 95 549 70 575 70 604 c 3
- 70 636 93 659 125 659 c 3
- 158 659 180 637 180 604 c 3
- 180 573 157 549 125 549 c 3
+160 460 m 1
+ 170 460 l 1
+ 170 40 l 5
+ 230 30 l 5
+ 230 0 l 1
+ 30 0 l 1
+ 30 30 l 5
+ 90 40 l 5
+ 90 380 l 1
+ 30 400 l 1
+ 30 420 l 1
+ 110 435 130 445 160 460 c 1
+130 549 m 3
+ 100 549 75 575 75 604 c 3
+ 75 636 98 659 130 659 c 3
+ 163 659 185 637 185 604 c 3
+ 185 573 162 549 130 549 c 3
 EndSplineSet
 Validated: 1
 EndChar
