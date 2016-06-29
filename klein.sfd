@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1452917949
-ModificationTime: 1466373965
+ModificationTime: 1467236560
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -93,7 +93,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 38 16
+WinInfo: 0 12 14
 BeginPrivate: 8
 BlueValues 31 [-10 0 450 460 650 660 700 710]
 OtherBlues 11 [-210 -200]
@@ -852,27 +852,27 @@ StartChar: j
 Encoding: 106 106 17
 Width: 260
 VWidth: 838
-Flags: HMW
+Flags: HMWO
 LayerCount: 2
 Fore
 SplineSet
-145 549 m 3
- 115 549 90 575 90 604 c 3
- 90 636 113 659 145 659 c 3
- 178 659 200 637 200 604 c 3
- 200 573 177 549 145 549 c 3
 185 0 m 2
- 185 -40 166 -165 -7 -165 c 0
- -58 -165 -100 -144 -100 -97 c 0
- -100 -67 -83 -47 -54 -47 c 0
- 2 -47 -27 -116 34 -116 c 3
- 91 -116 105 -59 105 0 c 2
+ 185 -96 107 -157 10 -157 c 3
+ -42 -157 -95 -133 -95 -86 c 3
+ -95 -61 -79 -45 -54 -45 c 3
+ 6 -45 -36 -117 26 -117 c 3
+ 105 -117 105 -43 105 42 c 2
  105 380 l 1
  45 400 l 1
  45 420 l 1
  125 435 145 445 175 460 c 1
  185 460 l 1
  185 0 l 2
+145 549 m 3
+ 115 549 90 575 90 604 c 3
+ 90 636 113 659 145 659 c 3
+ 178 659 200 637 200 604 c 3
+ 200 573 177 549 145 549 c 3
 EndSplineSet
 Validated: 1
 Kerns2: 17 60 "per glyph"
@@ -6407,9 +6407,9 @@ EndChar
 
 StartChar: f_j
 Encoding: 65537 -1 198
-Width: 520
+Width: 515
 VWidth: 838
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 SplineSet
@@ -6447,13 +6447,13 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-440 0 m 2
- 440 -40 421 -165 248 -165 c 3
- 197 -165 155 -144 155 -97 c 3
- 155 -67 172 -47 201 -47 c 3
- 257 -47 228 -116 289 -116 c 3
- 346 -116 360 -59 360 0 c 2
- 360 0 360 260 360 390 c 1
+440 -10 m 2
+ 440 -106 362 -167 265 -167 c 3
+ 213 -167 160 -143 160 -96 c 3
+ 160 -71 176 -55 201 -55 c 3
+ 261 -55 219 -127 281 -127 c 3
+ 360 -127 360 -53 360 32 c 2
+ 360 390 l 1
  300 410 l 1
  180 410 l 1
  180 40 l 1
@@ -6477,7 +6477,7 @@ SplineSet
  300 450 l 1
  380 465 400 475 430 490 c 1
  440 490 l 1
- 440 0 l 2
+ 440 -10 l 2
 EndSplineSet
 Validated: 1
 Ligature2: "'dlig' discretionary/historic ligatures-subtable" f j
