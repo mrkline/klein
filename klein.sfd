@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1452917949
-ModificationTime: 1470205244
+ModificationTime: 1470205649
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -93,7 +93,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 64182 19 16
+WinInfo: 38 19 7
 BeginPrivate: 8
 BlueValues 31 [-10 0 450 460 650 660 700 710]
 OtherBlues 11 [-210 -200]
@@ -170,24 +170,24 @@ BeginChars: 65538 199
 
 StartChar: l
 Encoding: 108 108 0
-Width: 250
+Width: 260
 VWidth: 838
-Flags: HMW
+Flags: HMWO
 LayerCount: 2
 Fore
 SplineSet
-170 40 m 5
- 230 30 l 5
- 230 0 l 5
- 30 0 l 5
- 30 30 l 5
- 90 40 l 5
- 90 620 l 5
- 30 640 l 5
- 30 660 l 5
- 110 675 130 685 160 700 c 5
- 170 700 l 5
- 170 40 l 5
+175 40 m 5
+ 235 30 l 5
+ 235 0 l 5
+ 35 0 l 5
+ 35 30 l 5
+ 95 40 l 5
+ 95 620 l 5
+ 35 640 l 5
+ 35 660 l 5
+ 115 675 135 685 165 700 c 5
+ 175 700 l 5
+ 175 40 l 5
 EndSplineSet
 Validated: 1
 EndChar
@@ -354,29 +354,29 @@ EndChar
 
 StartChar: i
 Encoding: 105 105 5
-Width: 250
+Width: 260
 VWidth: 838
 Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-160 460 m 5
- 170 460 l 5
- 170 40 l 5
- 230 30 l 5
- 230 0 l 5
- 30 0 l 5
- 30 30 l 5
- 90 40 l 5
- 90 380 l 5
- 30 400 l 5
- 30 420 l 5
- 110 435 130 445 160 460 c 5
-130 549 m 7
- 100 549 75 575 75 604 c 7
- 75 636 98 659 130 659 c 7
- 163 659 185 637 185 604 c 7
- 185 573 162 549 130 549 c 7
+165 460 m 5
+ 175 460 l 5
+ 175 40 l 5
+ 235 30 l 5
+ 235 0 l 5
+ 35 0 l 5
+ 35 30 l 5
+ 95 40 l 5
+ 95 380 l 5
+ 35 400 l 5
+ 35 420 l 5
+ 115 435 135 445 165 460 c 5
+135 549 m 7
+ 105 549 80 575 80 604 c 7
+ 80 636 103 659 135 659 c 7
+ 168 659 190 637 190 604 c 7
+ 190 573 167 549 135 549 c 7
 EndSplineSet
 Validated: 1
 EndChar
@@ -5221,7 +5221,7 @@ EndChar
 
 StartChar: f_i
 Encoding: 64257 64257 135
-Width: 540
+Width: 545
 VWidth: 838
 Flags: HMW
 LayerCount: 2
@@ -5408,7 +5408,7 @@ EndChar
 
 StartChar: f_l
 Encoding: 64258 64258 137
-Width: 540
+Width: 545
 VWidth: 838
 Flags: HMW
 LayerCount: 2
@@ -5486,9 +5486,9 @@ EndChar
 
 StartChar: f_f_l
 Encoding: 64260 64260 138
-Width: 820
+Width: 825
 VWidth: 838
-Flags: HMWO
+Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
