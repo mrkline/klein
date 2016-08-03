@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1452917949
-ModificationTime: 1470206183
+ModificationTime: 1470206666
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -859,8 +859,24 @@ StartChar: j
 Encoding: 106 106 17
 Width: 260
 VWidth: 838
-Flags: HMW
+Flags: HMWO
 LayerCount: 2
+Back
+SplineSet
+-135 -90 m 0
+ -135 -65 -120 -50 -95 -50 c 0
+ -35 -50 -77 -120 15 -120 c 0
+ 94 -120 105 -40 105 45 c 4
+ 105 500 l 1
+ 45 510 l 1
+ 45 540 l 1
+ 245 540 l 1
+ 245 510 l 1
+ 185 500 l 1
+ 185 50 l 4
+ 185 -80 87 -160 -10 -160 c 0
+ -62 -160 -135 -140 -135 -90 c 0
+EndSplineSet
 Fore
 SplineSet
 185 0 m 2
@@ -868,7 +884,7 @@ SplineSet
  -42 -157 -95 -133 -95 -86 c 3
  -95 -61 -79 -45 -54 -45 c 3
  6 -45 -36 -117 26 -117 c 3
- 105 -117 105 -43 105 42 c 2
+ 105 -117 105 -2 105 40 c 2
  105 380 l 1
  45 400 l 1
  45 420 l 1
@@ -881,7 +897,6 @@ SplineSet
  178 659 200 637 200 604 c 3
  200 573 177 549 145 549 c 3
 EndSplineSet
-Validated: 1
 Kerns2: 17 60 "per glyph"
 EndChar
 
@@ -1247,7 +1262,7 @@ StartChar: r
 Encoding: 114 114 28
 Width: 355
 VWidth: 838
-Flags: HMWO
+Flags: HMW
 LayerCount: 2
 Back
 SplineSet
