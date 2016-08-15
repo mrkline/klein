@@ -93,7 +93,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 19 16
+WinInfo: 38 38 16
 BeginPrivate: 8
 BlueValues 31 [-10 0 450 460 650 660 700 710]
 OtherBlues 11 [-210 -200]
@@ -385,7 +385,7 @@ StartChar: t
 Encoding: 116 116 6
 Width: 318
 VWidth: 838
-Flags: HMWO
+Flags: HMW
 LayerCount: 2
 Back
 SplineSet
